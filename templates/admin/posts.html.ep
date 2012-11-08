@@ -1,0 +1,16 @@
+% layout 'admin';
+% title 'Posts';
+<div class="span10">
+	<h2>Posts</h2>
+	<table class="table table-striped">
+		<tr><th>Post</th><th>Author</th><th>Saved</th><th>Status</th></tr>
+	% foreach my $post (@$posts) {
+		<tr>
+			<td><a href="/admin/edit?id=<%= $post->{'_id'} %>"><%= $post->{'title'} %></a></td>
+			<td><%= $post->{'author'} %></td>
+			<td><%= $post->{'last_updated'} %></td>
+			<td><%= $post->{'status'} %></td>
+		</tr>
+	% }
+	</table>
+</div>

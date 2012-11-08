@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title><%= title %> | <%= $config->{brand} %></title>
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="navbar">
+	<div class="navbar-inner">
+		<a class="brand" href="/"><%= $config->{brand} %></a>
+	</div>
+</div>
+<div class="container">
+	<%= content %>
+</div>
+<hr>
+<footer>
+&copy; 2012
+</footer>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

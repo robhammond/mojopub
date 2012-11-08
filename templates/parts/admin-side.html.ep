@@ -1,0 +1,8 @@
+<div class="span2 well">
+	<ul class="nav nav-list">
+		<li class="nav-header">Admin</li>
+		<li><a href="/admin/">Dashboard</a></li>
+		<li><a href="/admin/add">Write</a></li>
+		<li><a href="/admin/posts">Posts</a></li>
+	</ul>
+</div>

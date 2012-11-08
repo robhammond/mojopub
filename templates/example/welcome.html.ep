@@ -1,0 +1,21 @@
+% layout 'default';
+% title 'Welcome';
+<h2><%= $message %></h2>
+
+You might want to explore:
+
+<ul>
+	% if (!$self->session('user')) { 
+	<li><a href="/login">Login</a></li>
+	% } else {
+	<li><a href="/logout">Logout</a></li>
+	% }
+	<li><a href="/admin/">Admin</a></li>
+</ul>
+
+Posts:
+<ul>
+% foreach my $post (@$posts) {
+	<li><a href="<%= $post->{'slug'} %>"><%= $post->{'title'} %></a> by <%= $post->{'author'} %></li>
+% }
+</ul>

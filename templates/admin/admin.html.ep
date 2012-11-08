@@ -1,0 +1,9 @@
+% layout 'admin';
+% title 'admin';
+<div class="span10">
+	<h2>Admin Page</h2>
+	<p>Welcome, <%= $user %></p>
+	<ul>
+		<li><a href="/admin/add">Add new post</a></li>
+	</ul>
+</div>

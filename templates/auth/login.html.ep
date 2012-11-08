@@ -1,0 +1,14 @@
+% layout 'admin';
+% title 'login';
+
+
+% if ($message) {
+	<div class="alert alert-danger">
+	%= $message
+	</div>
+% }
+<%= form_for '/login' => (method => 'POST') => begin %>
+    <%= 'Username' %> : <%= text_field 'user', id => 'user'  %><br />
+    <%= 'Password' %> : <%= password_field 'pass', id => 'pass' %><br />
+    <%= submit_button 'Login' , id => 'foo' %>
+<% end %>

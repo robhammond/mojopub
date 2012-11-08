@@ -1,0 +1,33 @@
+% layout 'admin-edit';
+% title 'write post';
+% if ($message ne '') {
+	%= $message
+% }
+	<div class="span7">
+		<form method="post" id="post_form" action="/admin/savepost">
+		<input type="hidden" name="id" value="<%= $self->param('id') %>" />
+		<input type="hidden" name="action" id="action" value="" />
+		<h2>Write post</h2>
+		<h3>Title</h3>
+		<input type="text" name="title" value="<%= $meta->{'title'} %>" />
+		<h5>URL</h5>
+		<p>http://xyz.com/
+			<input type="text" name="slug" value="<%= $meta->{'slug'} %>" />
+		</p>
+		<h3>content</h3>
+		<textarea class="tinymce" rows="15" cols="50" style="width: 500px" name="content">
+		<%= $meta->{'content'} %>
+		</textarea>
+		<h3>Tags</h3>
+		<input type="text" name="tags" value="" />
+		<p><%= $meta->{'tags'} %></p>
+	</div>
+	<div class="span2">
+		<button class="btn" id="draft">save draft</button>
+		% if ($meta->{'status'} eq 'live') {
+			<button class="btn btn-primary" id="publish">update</button>
+		% } elsif ($meta->{'status'} eq 'draft') {
+			<button class="btn btn-primary" id="publish">publish</button>
+		% }
+		</form>
+	</div>
