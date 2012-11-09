@@ -58,22 +58,17 @@ sub startup {
   # ADMIN - protected area
   $r->get('/admin/')->to('admin#admin');
   $r->get('/admin/add')->to('admin#addpost');
-  # $r->post('/admin/publish')->to('save#publishpost');
 
   $r->post('/admin/savepost')->to('save#savepost');
   $r->get('/admin/draft')->to('save#draft');
   $r->get('/admin/publish')->to('save#publish');
 
   $r->get('/admin/edit')->to('admin#editpost');
-  # $r->post('/admin/edit')->to('save#updatepost');
-  # $r->post('/admin/savedraft')->to('save#savedraft');
 
   $r->get('/admin/posts')->to('admin#posts');
 
-
-  
   # Main router for blog posts/pages
-
+  # only accepts alphanumeric characters and '-' for now
   $r->route('/:name', name => qr![-0-9a-zA-Z]+!, format => 0)->to('render#blogpost');
 
 

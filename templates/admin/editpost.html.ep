@@ -23,7 +23,7 @@
 		<p><%= $meta->{'tags'} %></p>
 	</div>
 	<div class="span2">
-		<button class="btn" id="draft">save draft</button>
+		<button class="btn" id="save">save draft</button>
 		% if ($meta->{'status'} eq 'live') {
 			<button class="btn btn-primary" id="publish">update</button>
 		% } elsif ($meta->{'status'} eq 'draft') {

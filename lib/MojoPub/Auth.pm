@@ -1,7 +1,5 @@
 package MojoPub::Auth;
 use Mojo::Base 'Mojolicious::Controller';
-use strict;
-use warnings;
 
 my $USERS = {
     rob    => 'test',

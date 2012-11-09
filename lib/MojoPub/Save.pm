@@ -33,7 +33,7 @@ sub savepost {
 	
 	if ($id eq '') {
 		# If no id given, then insert
-		$posts->insert({ 
+		$id = $posts->insert({ 
 	    	nonce   => MongoDB::OID->new,
 	    	meta => {
 	    		slug   	 => $slug,
@@ -51,7 +51,7 @@ sub savepost {
 
     	# now route to status
 		if ($action eq 'save') {
-			$self->redirect_to("/admin/draft?id=$id");	
+			$self->redirect_to("/admin/");	
 		} elsif ($action eq 'publish') {
 			$self->redirect_to("/admin/publish?id=$id");
 		}
@@ -68,14 +68,11 @@ sub savepost {
 
 		# now route to status
 		if ($action eq 'save') {
-			$self->redirect_to("/admin/draft?id=$id");	
+			$self->redirect_to("/admin/");	
 		} elsif ($action eq 'publish') {
 			$self->redirect_to("/admin/publish?id=$id");
 		}
 	}
-    
-	# Redirect in case of error
-	# $self->redirect_to('/admin/');
 }
 
 sub publish {
