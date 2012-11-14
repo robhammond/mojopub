@@ -1,0 +1,13 @@
+% layout 'admin';
+% title 'theme';
+<div class="span10">
+	<h2>Theme</h2>
+	<p>Theme files are located in the <b>templates/example/</b> folder, with the default layout under 
+	<b>templates/layouts/default.html.ep</b></p>
+	<p>These files can be changed with no impact on the functionality of the rest of the site.</p>
+	<p>Template files use the default embedded Perl engine used by Mojolicious</p>
+	<p>Special variables:</p>
+	<ul>
+		<li><b>$config->{brand}</b> - default brand of the site, as defined in mojo_pub.conf</li>
+	</ul>
+</div>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+        <title><%= $config->{brand} %></title>
+        <description><%= $config->{description} %></description>
+        <link>http://www.someexamplerssdomain.com/main.html</link>
+        <lastBuildDate>Mon, 06 Sep 2010 00:01:00 +0000</lastBuildDate>
+        <pubDate>Mon, 06 Sep 2009 16:45:00 +0000</pubDate>
+        <ttl>1800</ttl>
+ % foreach my $post (@$posts) {
+        <item>
+                <title><%= $post->{'title'} %></title>
+                <description></description>
+                <link><%= $post->{'slug'} %></link>
+                <guid></guid>
+                <pubDate><%= $post->{'published'} %></pubDate>
+                <author><%= $post->{'author'} %></author>
+
+        </item>
+% }
+</channel>
+</rss>

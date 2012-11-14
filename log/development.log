@@ -1,0 +1,2113 @@
+[Thu Nov  8 20:39:06 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Thu Nov  8 20:39:06 2012] [info] Listening at "http://*:3000".
+[Thu Nov  8 20:39:17 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Thu Nov  8 20:39:17 2012] [debug] Routing to controller "MojoPub::Render" and action "bloghome".
+[Thu Nov  8 20:39:17 2012] [debug] Rendering template "example/welcome.html.ep".
+[Thu Nov  8 20:39:17 2012] [debug] Rendering template "layouts/default.html.ep".
+[Thu Nov  8 20:39:17 2012] [debug] 200 OK (0.134871s, 7.414/s).
+[Thu Nov  8 20:40:09 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Thu Nov  8 20:40:30 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Thu Nov  8 20:40:52 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Thu Nov  8 20:40:52 2012] [debug] Routing to controller "MojoPub::Render" and action "bloghome".
+[Thu Nov  8 20:40:52 2012] [debug] Rendering template "example/welcome.html.ep".
+[Thu Nov  8 20:40:52 2012] [debug] Rendering template "layouts/default.html.ep".
+[Thu Nov  8 20:40:52 2012] [debug] 200 OK (0.125156s, 7.990/s).
+[Thu Nov  8 20:43:13 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Thu Nov  8 20:43:13 2012] [debug] Routing to controller "MojoPub::Render" and action "bloghome".
+[Thu Nov  8 20:43:13 2012] [debug] Rendering cached template "example/welcome.html.ep".
+[Thu Nov  8 20:43:13 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu Nov  8 20:43:13 2012] [debug] 200 OK (0.003577s, 279.564/s).
+[Thu Nov  8 20:43:53 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Thu Nov  8 20:43:53 2012] [info] Listening at "http://*:3000".
+[Thu Nov  8 20:44:00 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Thu Nov  8 20:44:00 2012] [debug] Routing to controller "MojoPub::Render" and action "bloghome".
+[Thu Nov  8 20:44:00 2012] [debug] Rendering template "example/welcome.html.ep".
+[Thu Nov  8 20:44:00 2012] [debug] Rendering template "layouts/default.html.ep".
+[Thu Nov  8 20:44:00 2012] [debug] 200 OK (0.140281s, 7.129/s).
+[Thu Nov  8 20:44:01 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Thu Nov  8 20:44:01 2012] [debug] Routing to controller "MojoPub::Render" and action "bloghome".
+[Thu Nov  8 20:44:01 2012] [debug] Rendering cached template "example/welcome.html.ep".
+[Thu Nov  8 20:44:01 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu Nov  8 20:44:01 2012] [debug] 200 OK (0.003083s, 324.359/s).
+[Thu Nov  8 20:44:10 2012] [debug] GET /logout (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Thu Nov  8 20:44:10 2012] [debug] Routing to a callback.
+[Thu Nov  8 20:44:10 2012] [debug] 302 Found (0.001138s, 878.735/s).
+[Thu Nov  8 20:44:10 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Thu Nov  8 20:44:10 2012] [debug] Routing to controller "MojoPub::Render" and action "bloghome".
+[Thu Nov  8 20:44:10 2012] [debug] Rendering template "example/welcome.html.ep".
+[Thu Nov  8 20:44:10 2012] [debug] Rendering template "layouts/default.html.ep".
+[Thu Nov  8 20:44:10 2012] [debug] 200 OK (0.009433s, 106.011/s).
+[Thu Nov  8 20:44:14 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Thu Nov  8 20:44:14 2012] [debug] Routing to controller "MojoPub::Render" and action "bloghome".
+[Thu Nov  8 20:44:14 2012] [debug] Rendering cached template "example/welcome.html.ep".
+[Thu Nov  8 20:44:14 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu Nov  8 20:44:14 2012] [debug] 200 OK (0.003394s, 294.638/s).
+[Thu Nov  8 20:46:10 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Thu Nov  8 20:46:10 2012] [info] Listening at "http://*:3000".
+[Thu Nov  8 20:46:17 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Thu Nov  8 20:46:17 2012] [debug] Routing to controller "MojoPub::Render" and action "bloghome".
+[Thu Nov  8 20:46:17 2012] [debug] Rendering template "example/welcome.html.ep".
+[Thu Nov  8 20:46:17 2012] [debug] Rendering template "layouts/default.html.ep".
+[Thu Nov  8 20:46:17 2012] [debug] 200 OK (0.133746s, 7.477/s).
+[Thu Nov  8 20:46:18 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Thu Nov  8 20:46:18 2012] [debug] Routing to controller "MojoPub::Render" and action "bloghome".
+[Thu Nov  8 20:46:18 2012] [debug] Rendering cached template "example/welcome.html.ep".
+[Thu Nov  8 20:46:18 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu Nov  8 20:46:18 2012] [debug] 200 OK (0.003350s, 298.507/s).
+[Thu Nov  8 20:47:20 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Thu Nov  8 20:49:29 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Thu Nov  8 20:50:15 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Thu Nov  8 20:50:45 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Thu Nov  8 20:51:07 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Thu Nov  8 20:51:10 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Thu Nov  8 20:51:57 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Thu Nov  8 20:52:48 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Thu Nov  8 20:52:48 2012] [debug] Routing to controller "MojoPub::Render" and action "bloghome".
+[Thu Nov  8 20:52:49 2012] [debug] Rendering template "example/welcome.html.ep".
+[Thu Nov  8 20:52:49 2012] [debug] Rendering template "layouts/default.html.ep".
+[Thu Nov  8 20:52:49 2012] [debug] 200 OK (0.120911s, 8.271/s).
+[Thu Nov  8 20:52:55 2012] [debug] GET /login (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Thu Nov  8 20:52:55 2012] [debug] Routing to controller "MojoPub::Auth" and action "login".
+[Thu Nov  8 20:52:55 2012] [debug] Rendering template "auth/login.html.ep".
+[Thu Nov  8 20:52:55 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Thu Nov  8 20:52:55 2012] [debug] 200 OK (0.012583s, 79.472/s).
+[Thu Nov  8 20:53:01 2012] [debug] POST /login (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Thu Nov  8 20:53:01 2012] [debug] Routing to a callback.
+[Thu Nov  8 20:53:01 2012] [debug] 302 Found (0.001374s, 727.802/s).
+[Thu Nov  8 20:53:01 2012] [debug] GET /admin (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Thu Nov  8 20:53:01 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Thu Nov  8 20:53:01 2012] [debug] Rendering template "admin/admin.html.ep".
+[Thu Nov  8 20:53:01 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Thu Nov  8 20:53:01 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Thu Nov  8 20:53:01 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Thu Nov  8 20:53:01 2012] [debug] 200 OK (0.017093s, 58.503/s).
+[Thu Nov  8 20:53:06 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Thu Nov  8 20:53:06 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Thu Nov  8 20:53:06 2012] [debug] Rendering template "admin/addpost.html.ep".
+[Thu Nov  8 20:53:06 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Thu Nov  8 20:53:06 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Thu Nov  8 20:53:06 2012] [debug] 200 OK (0.011048s, 90.514/s).
+[Thu Nov  8 20:53:13 2012] [debug] POST /admin/savepost (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Thu Nov  8 20:53:13 2012] [debug] Routing to controller "MojoPub::Save" and action "savepost".
+[Thu Nov  8 20:53:13 2012] [debug] 302 Found (0.004363s, 229.200/s).
+[Thu Nov  8 20:53:13 2012] [debug] GET /admin/publish (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Thu Nov  8 20:53:13 2012] [debug] Routing to controller "MojoPub::Save" and action "publish".
+[Thu Nov  8 20:53:13 2012] [debug] 302 Found (0.001914s, 522.466/s).
+[Thu Nov  8 20:53:13 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Thu Nov  8 20:53:13 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Thu Nov  8 20:53:13 2012] [debug] Rendering cached template "admin/admin.html.ep".
+[Thu Nov  8 20:53:13 2012] [debug] Rendering cached template "layouts/admin.html.ep".
+[Thu Nov  8 20:53:13 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Thu Nov  8 20:53:13 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Thu Nov  8 20:53:13 2012] [debug] 200 OK (0.003881s, 257.666/s).
+[Thu Nov  8 20:53:16 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Thu Nov  8 20:53:16 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Thu Nov  8 20:53:16 2012] [debug] Rendering cached template "admin/addpost.html.ep".
+[Thu Nov  8 20:53:16 2012] [debug] Rendering cached template "layouts/admin-edit.html.ep".
+[Thu Nov  8 20:53:16 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Thu Nov  8 20:53:16 2012] [debug] 200 OK (0.001558s, 641.849/s).
+[Thu Nov  8 20:53:17 2012] [debug] GET /admin/posts (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Thu Nov  8 20:53:17 2012] [debug] Routing to controller "MojoPub::Admin" and action "posts".
+[Thu Nov  8 20:53:17 2012] [debug] Rendering template "admin/posts.html.ep".
+[Thu Nov  8 20:53:17 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Thu Nov  8 20:53:17 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Thu Nov  8 20:53:17 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Thu Nov  8 20:53:17 2012] [debug] 200 OK (0.017668s, 56.600/s).
+[Thu Nov  8 20:53:20 2012] [debug] GET /admin/edit (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Thu Nov  8 20:53:20 2012] [debug] Routing to controller "MojoPub::Admin" and action "editpost".
+[Thu Nov  8 20:53:20 2012] [debug] Rendering template "admin/editpost.html.ep".
+[Thu Nov  8 20:53:20 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Thu Nov  8 20:53:20 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Thu Nov  8 20:53:20 2012] [debug] 200 OK (0.015363s, 65.091/s).
+[Thu Nov  8 20:53:23 2012] [debug] POST /admin/savepost (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Thu Nov  8 20:53:23 2012] [debug] Routing to controller "MojoPub::Save" and action "savepost".
+[Thu Nov  8 20:53:23 2012] [debug] 302 Found (0.003335s, 299.850/s).
+[Thu Nov  8 20:53:23 2012] [debug] GET /admin/publish (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Thu Nov  8 20:53:23 2012] [debug] Routing to controller "MojoPub::Save" and action "publish".
+[Thu Nov  8 20:53:23 2012] [debug] 302 Found (0.001667s, 599.880/s).
+[Thu Nov  8 20:53:23 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Thu Nov  8 20:53:23 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Thu Nov  8 20:53:23 2012] [debug] Rendering cached template "admin/admin.html.ep".
+[Thu Nov  8 20:53:23 2012] [debug] Rendering cached template "layouts/admin.html.ep".
+[Thu Nov  8 20:53:23 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Thu Nov  8 20:53:23 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Thu Nov  8 20:53:23 2012] [debug] 200 OK (0.003003s, 333.000/s).
+[Thu Nov  8 20:53:26 2012] [debug] GET /admin/posts (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Thu Nov  8 20:53:26 2012] [debug] Routing to controller "MojoPub::Admin" and action "posts".
+[Thu Nov  8 20:53:26 2012] [debug] Rendering cached template "admin/posts.html.ep".
+[Thu Nov  8 20:53:26 2012] [debug] Rendering cached template "layouts/admin.html.ep".
+[Thu Nov  8 20:53:26 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Thu Nov  8 20:53:26 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Thu Nov  8 20:53:26 2012] [debug] 200 OK (0.004325s, 231.214/s).
+[Thu Nov  8 20:53:29 2012] [debug] GET /admin/posts (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Thu Nov  8 20:53:29 2012] [debug] Routing to controller "MojoPub::Admin" and action "posts".
+[Thu Nov  8 20:53:29 2012] [debug] Rendering cached template "admin/posts.html.ep".
+[Thu Nov  8 20:53:29 2012] [debug] Rendering cached template "layouts/admin.html.ep".
+[Thu Nov  8 20:53:29 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Thu Nov  8 20:53:29 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Thu Nov  8 20:53:29 2012] [debug] 200 OK (0.003872s, 258.264/s).
+[Thu Nov  8 20:53:32 2012] [debug] GET /admin/edit (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Thu Nov  8 20:53:32 2012] [debug] Routing to controller "MojoPub::Admin" and action "editpost".
+[Thu Nov  8 20:53:32 2012] [debug] Rendering cached template "admin/editpost.html.ep".
+[Thu Nov  8 20:53:32 2012] [debug] Rendering cached template "layouts/admin-edit.html.ep".
+[Thu Nov  8 20:53:32 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Thu Nov  8 20:53:32 2012] [debug] 200 OK (0.002547s, 392.619/s).
+[Thu Nov  8 20:53:35 2012] [debug] POST /admin/savepost (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Thu Nov  8 20:53:35 2012] [debug] Routing to controller "MojoPub::Save" and action "savepost".
+[Thu Nov  8 20:53:35 2012] [debug] 302 Found (0.002062s, 484.966/s).
+[Thu Nov  8 20:53:35 2012] [debug] GET /admin/draft (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Thu Nov  8 20:53:35 2012] [debug] Routing to controller "MojoPub::Save" and action "draft".
+[Thu Nov  8 20:53:35 2012] [debug] 302 Found (0.001597s, 626.174/s).
+[Thu Nov  8 20:53:35 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Thu Nov  8 20:53:35 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Thu Nov  8 20:53:35 2012] [debug] Rendering cached template "admin/admin.html.ep".
+[Thu Nov  8 20:53:35 2012] [debug] Rendering cached template "layouts/admin.html.ep".
+[Thu Nov  8 20:53:35 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Thu Nov  8 20:53:35 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Thu Nov  8 20:53:35 2012] [debug] 200 OK (0.003159s, 316.556/s).
+[Thu Nov  8 20:53:38 2012] [debug] GET /admin/posts (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Thu Nov  8 20:53:38 2012] [debug] Routing to controller "MojoPub::Admin" and action "posts".
+[Thu Nov  8 20:53:38 2012] [debug] Rendering cached template "admin/posts.html.ep".
+[Thu Nov  8 20:53:38 2012] [debug] Rendering cached template "layouts/admin.html.ep".
+[Thu Nov  8 20:53:38 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Thu Nov  8 20:53:38 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Thu Nov  8 20:53:38 2012] [debug] 200 OK (0.003557s, 281.136/s).
+[Fri Nov  9 09:04:47 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Fri Nov  9 09:04:47 2012] [info] Listening at "http://*:3000".
+[Fri Nov  9 09:05:30 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:05:30 2012] [debug] Routing to controller "MojoPub::Render" and action "bloghome".
+[Fri Nov  9 09:05:30 2012] [debug] Rendering template "example/welcome.html.ep".
+[Fri Nov  9 09:05:30 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri Nov  9 09:05:30 2012] [debug] 200 OK (0.166422s, 6.009/s).
+[Fri Nov  9 09:05:32 2012] [debug] GET /login (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:05:32 2012] [debug] Routing to controller "MojoPub::Auth" and action "login".
+[Fri Nov  9 09:05:32 2012] [debug] Rendering template "auth/login.html.ep".
+[Fri Nov  9 09:05:32 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Fri Nov  9 09:05:32 2012] [debug] 200 OK (0.017366s, 57.584/s).
+[Fri Nov  9 09:05:36 2012] [debug] POST /login (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:05:36 2012] [debug] Routing to a callback.
+[Fri Nov  9 09:05:36 2012] [debug] 302 Found (0.001267s, 789.266/s).
+[Fri Nov  9 09:05:36 2012] [debug] GET /admin (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:05:36 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Fri Nov  9 09:05:36 2012] [debug] Rendering template "admin/admin.html.ep".
+[Fri Nov  9 09:05:36 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Fri Nov  9 09:05:36 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Fri Nov  9 09:05:36 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Fri Nov  9 09:05:36 2012] [debug] 200 OK (0.018625s, 53.691/s).
+[Fri Nov  9 09:05:39 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:05:39 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Fri Nov  9 09:05:39 2012] [debug] Rendering template "admin/addpost.html.ep".
+[Fri Nov  9 09:05:39 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Fri Nov  9 09:05:39 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Fri Nov  9 09:05:39 2012] [debug] 200 OK (0.009872s, 101.297/s).
+[Fri Nov  9 09:05:52 2012] [debug] POST /admin/savepost (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:05:52 2012] [debug] Routing to controller "MojoPub::Save" and action "savepost".
+[Fri Nov  9 09:05:52 2012] [debug] Template "save/savepost.html.ep" not found.
+[Fri Nov  9 09:05:52 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov  9 09:06:07 2012] [debug] Inactivity timeout.
+[Fri Nov  9 09:06:07 2012] [debug] POST /admin/savepost (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:06:07 2012] [debug] Routing to controller "MojoPub::Save" and action "savepost".
+[Fri Nov  9 09:06:07 2012] [debug] Template "save/savepost.html.ep" not found.
+[Fri Nov  9 09:06:07 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov  9 09:06:22 2012] [debug] Inactivity timeout.
+[Fri Nov  9 09:07:07 2012] [debug] POST /admin/savepost (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:07:07 2012] [debug] Routing to controller "MojoPub::Save" and action "savepost".
+[Fri Nov  9 09:07:07 2012] [debug] Template "save/savepost.html.ep" not found.
+[Fri Nov  9 09:07:07 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov  9 09:07:22 2012] [debug] Inactivity timeout.
+[Fri Nov  9 09:07:22 2012] [debug] POST /admin/savepost (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:07:22 2012] [debug] Routing to controller "MojoPub::Save" and action "savepost".
+[Fri Nov  9 09:07:22 2012] [debug] Template "save/savepost.html.ep" not found.
+[Fri Nov  9 09:07:22 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov  9 09:07:37 2012] [debug] Inactivity timeout.
+[Fri Nov  9 09:09:41 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Fri Nov  9 09:11:18 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:11:18 2012] [debug] Routing to controller "MojoPub::Render" and action "bloghome".
+[Fri Nov  9 09:11:18 2012] [debug] Rendering template "example/welcome.html.ep".
+[Fri Nov  9 09:11:18 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri Nov  9 09:11:18 2012] [debug] 200 OK (0.135854s, 7.361/s).
+[Fri Nov  9 09:11:22 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:11:22 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Fri Nov  9 09:11:22 2012] [debug] Rendering template "admin/admin.html.ep".
+[Fri Nov  9 09:11:22 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Fri Nov  9 09:11:22 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Fri Nov  9 09:11:22 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Fri Nov  9 09:11:22 2012] [debug] 200 OK (0.016204s, 61.713/s).
+[Fri Nov  9 09:11:26 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:11:26 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Fri Nov  9 09:11:26 2012] [debug] Rendering cached template "admin/admin.html.ep".
+[Fri Nov  9 09:11:26 2012] [debug] Rendering cached template "layouts/admin.html.ep".
+[Fri Nov  9 09:11:26 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Fri Nov  9 09:11:26 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Fri Nov  9 09:11:26 2012] [debug] 200 OK (0.002080s, 480.769/s).
+[Fri Nov  9 09:11:28 2012] [debug] GET /admin/posts (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:11:28 2012] [debug] Routing to controller "MojoPub::Admin" and action "posts".
+[Fri Nov  9 09:11:28 2012] [debug] Rendering template "admin/posts.html.ep".
+[Fri Nov  9 09:11:28 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Fri Nov  9 09:11:28 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Fri Nov  9 09:11:28 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Fri Nov  9 09:11:28 2012] [debug] 200 OK (0.021819s, 45.832/s).
+[Fri Nov  9 09:11:38 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:11:38 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Fri Nov  9 09:11:38 2012] [debug] Rendering template "admin/addpost.html.ep".
+[Fri Nov  9 09:11:38 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Fri Nov  9 09:11:38 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Fri Nov  9 09:11:38 2012] [debug] 200 OK (0.010785s, 92.721/s).
+[Fri Nov  9 09:11:46 2012] [debug] POST /admin/savepost (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:11:46 2012] [debug] Routing to controller "MojoPub::Save" and action "savepost".
+[Fri Nov  9 09:11:46 2012] [debug] Template "save/savepost.html.ep" not found.
+[Fri Nov  9 09:11:46 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov  9 09:11:59 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Fri Nov  9 09:13:48 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Fri Nov  9 09:14:00 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:14:00 2012] [debug] Routing to controller "MojoPub::Render" and action "bloghome".
+[Fri Nov  9 09:14:00 2012] [debug] Rendering template "example/welcome.html.ep".
+[Fri Nov  9 09:14:00 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri Nov  9 09:14:00 2012] [debug] 200 OK (0.115265s, 8.676/s).
+[Fri Nov  9 09:14:02 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:14:02 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Fri Nov  9 09:14:02 2012] [debug] Rendering template "admin/admin.html.ep".
+[Fri Nov  9 09:14:02 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Fri Nov  9 09:14:02 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Fri Nov  9 09:14:02 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Fri Nov  9 09:14:02 2012] [debug] 200 OK (0.022397s, 44.649/s).
+[Fri Nov  9 09:14:05 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:14:05 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Fri Nov  9 09:14:05 2012] [debug] Rendering template "admin/addpost.html.ep".
+[Fri Nov  9 09:14:05 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Fri Nov  9 09:14:05 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Fri Nov  9 09:14:05 2012] [debug] 200 OK (0.011121s, 89.920/s).
+[Fri Nov  9 09:14:12 2012] [debug] POST /admin/savepost (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:14:12 2012] [debug] Routing to controller "MojoPub::Save" and action "savepost".
+[Fri Nov  9 09:14:12 2012] [debug] Template "save/savepost.html.ep" not found.
+[Fri Nov  9 09:14:12 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov  9 09:14:28 2012] [debug] Inactivity timeout.
+[Fri Nov  9 09:14:28 2012] [debug] POST /admin/savepost (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:14:28 2012] [debug] Routing to controller "MojoPub::Save" and action "savepost".
+[Fri Nov  9 09:14:28 2012] [debug] Template "save/savepost.html.ep" not found.
+[Fri Nov  9 09:14:28 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov  9 09:14:43 2012] [debug] Inactivity timeout.
+[Fri Nov  9 09:15:08 2012] [debug] POST /admin/savepost (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:15:08 2012] [debug] Routing to controller "MojoPub::Save" and action "savepost".
+[Fri Nov  9 09:15:08 2012] [debug] Template "save/savepost.html.ep" not found.
+[Fri Nov  9 09:15:08 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov  9 09:15:23 2012] [debug] Inactivity timeout.
+[Fri Nov  9 09:15:23 2012] [debug] POST /admin/savepost (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:15:23 2012] [debug] Routing to controller "MojoPub::Save" and action "savepost".
+[Fri Nov  9 09:15:23 2012] [debug] Template "save/savepost.html.ep" not found.
+[Fri Nov  9 09:15:23 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov  9 09:15:28 2012] [debug] POST /admin/savepost (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:15:28 2012] [debug] Routing to controller "MojoPub::Save" and action "savepost".
+[Fri Nov  9 09:15:28 2012] [debug] 302 Found (0.001479s, 676.133/s).
+[Fri Nov  9 09:15:28 2012] [debug] GET /admin/publish (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:15:28 2012] [debug] Routing to controller "MojoPub::Save" and action "publish".
+[Fri Nov  9 09:15:28 2012] [debug] 302 Found (0.002012s, 497.018/s).
+[Fri Nov  9 09:15:28 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:15:28 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Fri Nov  9 09:15:28 2012] [debug] Rendering cached template "admin/admin.html.ep".
+[Fri Nov  9 09:15:28 2012] [debug] Rendering cached template "layouts/admin.html.ep".
+[Fri Nov  9 09:15:28 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Fri Nov  9 09:15:28 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Fri Nov  9 09:15:28 2012] [debug] 200 OK (0.002569s, 389.257/s).
+[Fri Nov  9 09:15:38 2012] [debug] GET /admin/posts (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:15:38 2012] [debug] Routing to controller "MojoPub::Admin" and action "posts".
+[Fri Nov  9 09:15:38 2012] [debug] Rendering template "admin/posts.html.ep".
+[Fri Nov  9 09:15:38 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Fri Nov  9 09:15:38 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Fri Nov  9 09:15:38 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Fri Nov  9 09:15:38 2012] [debug] 200 OK (0.014300s, 69.930/s).
+[Fri Nov  9 09:15:47 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:15:47 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Fri Nov  9 09:15:47 2012] [debug] Rendering cached template "admin/addpost.html.ep".
+[Fri Nov  9 09:15:47 2012] [debug] Rendering cached template "layouts/admin-edit.html.ep".
+[Fri Nov  9 09:15:47 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Fri Nov  9 09:15:47 2012] [debug] 200 OK (0.001706s, 586.166/s).
+[Fri Nov  9 09:15:59 2012] [debug] POST /admin/savepost (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:15:59 2012] [debug] Routing to controller "MojoPub::Save" and action "savepost".
+[Fri Nov  9 09:15:59 2012] [debug] Template "save/savepost.html.ep" not found.
+[Fri Nov  9 09:15:59 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov  9 09:16:14 2012] [debug] Inactivity timeout.
+[Fri Nov  9 09:16:14 2012] [debug] POST /admin/savepost (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:16:14 2012] [debug] Routing to controller "MojoPub::Save" and action "savepost".
+[Fri Nov  9 09:16:14 2012] [debug] Template "save/savepost.html.ep" not found.
+[Fri Nov  9 09:16:14 2012] [debug] Nothing has been rendered, expecting delayed response.
+[Fri Nov  9 09:16:29 2012] [debug] Inactivity timeout.
+[Fri Nov  9 09:17:30 2012] [debug] POST /admin/savepost (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:17:30 2012] [debug] Routing to controller "MojoPub::Save" and action "savepost".
+[Fri Nov  9 09:17:30 2012] [debug] 302 Found (0.001510s, 662.252/s).
+[Fri Nov  9 09:17:30 2012] [debug] GET /admin/publish (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:17:30 2012] [debug] Routing to controller "MojoPub::Save" and action "publish".
+[Fri Nov  9 09:17:30 2012] [debug] 302 Found (0.001381s, 724.113/s).
+[Fri Nov  9 09:17:30 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:17:30 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Fri Nov  9 09:17:30 2012] [debug] Rendering cached template "admin/admin.html.ep".
+[Fri Nov  9 09:17:30 2012] [debug] Rendering cached template "layouts/admin.html.ep".
+[Fri Nov  9 09:17:30 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Fri Nov  9 09:17:30 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Fri Nov  9 09:17:30 2012] [debug] 200 OK (0.002075s, 481.928/s).
+[Fri Nov  9 09:17:33 2012] [debug] GET /admin/posts (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:17:33 2012] [debug] Routing to controller "MojoPub::Admin" and action "posts".
+[Fri Nov  9 09:17:33 2012] [debug] Rendering cached template "admin/posts.html.ep".
+[Fri Nov  9 09:17:33 2012] [debug] Rendering cached template "layouts/admin.html.ep".
+[Fri Nov  9 09:17:33 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Fri Nov  9 09:17:33 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Fri Nov  9 09:17:33 2012] [debug] 200 OK (0.004994s, 200.240/s).
+[Fri Nov  9 09:17:37 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:17:37 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Fri Nov  9 09:17:37 2012] [debug] Rendering cached template "admin/admin.html.ep".
+[Fri Nov  9 09:17:37 2012] [debug] Rendering cached template "layouts/admin.html.ep".
+[Fri Nov  9 09:17:37 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Fri Nov  9 09:17:37 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Fri Nov  9 09:17:37 2012] [debug] 200 OK (0.003596s, 278.087/s).
+[Fri Nov  9 09:17:39 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:17:39 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Fri Nov  9 09:17:39 2012] [debug] Rendering cached template "admin/addpost.html.ep".
+[Fri Nov  9 09:17:39 2012] [debug] Rendering cached template "layouts/admin-edit.html.ep".
+[Fri Nov  9 09:17:39 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Fri Nov  9 09:17:39 2012] [debug] 200 OK (0.002371s, 421.763/s).
+[Fri Nov  9 09:18:50 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Fri Nov  9 09:19:11 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Fri Nov  9 09:19:18 2012] [debug] POST /admin/savepost (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:19:18 2012] [debug] Routing to controller "MojoPub::Save" and action "savepost".
+[Fri Nov  9 09:19:18 2012] [debug] 200 OK (0.121361s, 8.240/s).
+[Fri Nov  9 09:20:39 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Fri Nov  9 09:20:41 2012] [debug] POST /admin/savepost (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:20:41 2012] [debug] Routing to controller "MojoPub::Save" and action "savepost".
+[Fri Nov  9 09:20:41 2012] [debug] 200 OK (0.110249s, 9.070/s).
+[Fri Nov  9 09:20:55 2012] [debug] POST /admin/savepost (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:20:55 2012] [debug] Routing to controller "MojoPub::Save" and action "savepost".
+[Fri Nov  9 09:20:55 2012] [debug] 200 OK (0.001537s, 650.618/s).
+[Fri Nov  9 09:21:11 2012] [debug] POST /admin/savepost (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:21:11 2012] [debug] Routing to controller "MojoPub::Save" and action "savepost".
+[Fri Nov  9 09:21:11 2012] [debug] 200 OK (0.001331s, 751.315/s).
+[Fri Nov  9 09:22:29 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Fri Nov  9 09:22:30 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Fri Nov  9 09:24:55 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Fri Nov  9 09:25:03 2012] [debug] POST /admin/savepost (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:25:03 2012] [debug] Routing to controller "MojoPub::Save" and action "savepost".
+[Fri Nov  9 09:25:03 2012] [debug] 200 OK (0.131983s, 7.577/s).
+[Fri Nov  9 09:25:10 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:25:10 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Fri Nov  9 09:25:10 2012] [debug] Rendering template "admin/addpost.html.ep".
+[Fri Nov  9 09:25:10 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Fri Nov  9 09:25:10 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Fri Nov  9 09:25:10 2012] [debug] 200 OK (0.024488s, 40.836/s).
+[Fri Nov  9 09:27:21 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:27:21 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Fri Nov  9 09:27:21 2012] [debug] Rendering cached template "admin/addpost.html.ep".
+[Fri Nov  9 09:27:21 2012] [debug] Rendering cached template "layouts/admin-edit.html.ep".
+[Fri Nov  9 09:27:21 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Fri Nov  9 09:27:21 2012] [debug] 200 OK (0.005428s, 184.230/s).
+[Fri Nov  9 09:27:27 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Fri Nov  9 09:27:27 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:27:27 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Fri Nov  9 09:27:27 2012] [debug] Rendering template "admin/addpost.html.ep".
+[Fri Nov  9 09:27:27 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Fri Nov  9 09:27:27 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Fri Nov  9 09:27:27 2012] [debug] 200 OK (0.021953s, 45.552/s).
+[Fri Nov  9 09:27:48 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Fri Nov  9 09:30:06 2012] [debug] POST /admin/savepost (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:30:06 2012] [debug] Routing to controller "MojoPub::Save" and action "savepost".
+[Fri Nov  9 09:30:06 2012] [debug] 302 Found (0.113536s, 8.808/s).
+[Fri Nov  9 09:30:06 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:30:06 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Fri Nov  9 09:30:06 2012] [debug] Rendering template "admin/admin.html.ep".
+[Fri Nov  9 09:30:06 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Fri Nov  9 09:30:06 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Fri Nov  9 09:30:06 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Fri Nov  9 09:30:06 2012] [debug] 200 OK (0.017113s, 58.435/s).
+[Fri Nov  9 09:30:39 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Fri Nov  9 09:31:07 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Fri Nov  9 09:31:18 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Fri Nov  9 09:31:27 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Fri Nov  9 09:31:34 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Fri Nov  9 09:31:44 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Fri Nov  9 09:31:53 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Fri Nov  9 09:32:06 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Fri Nov  9 09:32:23 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Fri Nov  9 09:32:24 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:32:24 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Fri Nov  9 09:32:24 2012] [debug] Rendering template "admin/admin.html.ep".
+[Fri Nov  9 09:32:24 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Fri Nov  9 09:32:24 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Fri Nov  9 09:32:24 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Fri Nov  9 09:32:24 2012] [debug] 200 OK (0.022911s, 43.647/s).
+[Fri Nov  9 09:33:13 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Fri Nov  9 09:33:15 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:33:15 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Fri Nov  9 09:33:15 2012] [debug] Rendering template "admin/admin.html.ep".
+[Fri Nov  9 09:33:15 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Fri Nov  9 09:33:15 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Fri Nov  9 09:33:15 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Fri Nov  9 09:33:15 2012] [debug] 200 OK (0.018631s, 53.674/s).
+[Fri Nov  9 09:33:23 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Fri Nov  9 09:33:25 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:33:25 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Fri Nov  9 09:33:25 2012] [debug] Rendering template "admin/admin.html.ep".
+[Fri Nov  9 09:33:25 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Fri Nov  9 09:33:25 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Fri Nov  9 09:33:25 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Fri Nov  9 09:33:25 2012] [debug] 200 OK (0.018964s, 52.731/s).
+[Fri Nov  9 09:33:51 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Fri Nov  9 09:33:52 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:33:52 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Fri Nov  9 09:33:52 2012] [debug] Rendering template "admin/admin.html.ep".
+[Fri Nov  9 09:33:52 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Fri Nov  9 09:33:52 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Fri Nov  9 09:33:52 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Fri Nov  9 09:33:52 2012] [debug] 200 OK (0.021287s, 46.977/s).
+[Fri Nov  9 09:34:03 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Fri Nov  9 09:34:03 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:34:03 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Fri Nov  9 09:34:03 2012] [debug] Rendering template "admin/admin.html.ep".
+[Fri Nov  9 09:34:03 2012] [error] Can't use string ("0c2afdd7cb7e45fb92803538896b8ccb") as a HASH ref while "strict refs" in use at template "admin/admin.html.ep" line 6, near "	<ul>".
+1: % layout 'admin';
+2: % title 'admin';
+3: <div class="span10">
+4: 	<h2>Admin Page</h2>
+5: 	<p>Welcome, <%= $user %></p>
+6: 	%== dumper $self->{tx}->{connection}->{content}
+7: 	<ul>
+8: 		<li><a href="/admin/add">Add new post</a></li>
+9: 	</ul>
+10: </div>
+
+[Fri Nov  9 09:34:03 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri Nov  9 09:34:03 2012] [debug] Template "exception.html.ep" not found.
+[Fri Nov  9 09:34:03 2012] [debug] Rendering inline template.
+[Fri Nov  9 09:34:03 2012] [debug] Rendering inline template.
+[Fri Nov  9 09:34:03 2012] [debug] 500 Internal Server Error (0.047280s, 21.151/s).
+[Fri Nov  9 09:34:13 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Fri Nov  9 09:34:14 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:34:14 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Fri Nov  9 09:34:14 2012] [debug] Rendering template "admin/admin.html.ep".
+[Fri Nov  9 09:34:14 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Fri Nov  9 09:34:14 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Fri Nov  9 09:34:14 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Fri Nov  9 09:34:14 2012] [debug] 200 OK (0.019208s, 52.062/s).
+[Fri Nov  9 09:35:11 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Fri Nov  9 09:35:12 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:35:12 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Fri Nov  9 09:35:12 2012] [debug] Rendering template "admin/admin.html.ep".
+[Fri Nov  9 09:35:12 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Fri Nov  9 09:35:12 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Fri Nov  9 09:35:12 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Fri Nov  9 09:35:12 2012] [debug] 200 OK (0.021182s, 47.210/s).
+[Fri Nov  9 09:35:31 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Fri Nov  9 09:35:38 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Fri Nov  9 09:35:40 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:35:40 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Fri Nov  9 09:35:40 2012] [debug] Rendering template "admin/admin.html.ep".
+[Fri Nov  9 09:35:40 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Fri Nov  9 09:35:40 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Fri Nov  9 09:35:40 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Fri Nov  9 09:35:40 2012] [debug] 200 OK (0.021770s, 45.935/s).
+[Fri Nov  9 09:35:42 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:35:42 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Fri Nov  9 09:35:42 2012] [debug] Rendering cached template "admin/admin.html.ep".
+[Fri Nov  9 09:35:42 2012] [debug] Rendering cached template "layouts/admin.html.ep".
+[Fri Nov  9 09:35:42 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Fri Nov  9 09:35:42 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Fri Nov  9 09:35:42 2012] [debug] 200 OK (0.002500s, 400.000/s).
+[Fri Nov  9 09:35:50 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Fri Nov  9 09:35:50 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:35:50 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Fri Nov  9 09:35:50 2012] [debug] Rendering template "admin/admin.html.ep".
+[Fri Nov  9 09:35:50 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Fri Nov  9 09:35:50 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Fri Nov  9 09:35:50 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Fri Nov  9 09:35:50 2012] [debug] 200 OK (0.024414s, 40.960/s).
+[Fri Nov  9 09:35:59 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Fri Nov  9 09:35:59 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:35:59 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Fri Nov  9 09:35:59 2012] [debug] Rendering template "admin/admin.html.ep".
+[Fri Nov  9 09:35:59 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Fri Nov  9 09:35:59 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Fri Nov  9 09:35:59 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Fri Nov  9 09:35:59 2012] [debug] 200 OK (0.023140s, 43.215/s).
+[Fri Nov  9 09:36:09 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Fri Nov  9 09:36:09 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Fri Nov  9 09:36:09 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Fri Nov  9 09:36:09 2012] [debug] Rendering template "admin/admin.html.ep".
+[Fri Nov  9 09:36:09 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Fri Nov  9 09:36:09 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Fri Nov  9 09:36:09 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Fri Nov  9 09:36:09 2012] [debug] 200 OK (0.024472s, 40.863/s).
+[Fri Nov  9 09:36:16 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/mojo_pub/mojo_pub.conf".
+[Sat Nov 10 07:41:27 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sat Nov 10 07:41:27 2012] [info] Listening at "http://*:3000".
+[Sat Nov 10 07:41:44 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sat Nov 10 07:41:44 2012] [debug] Routing to controller "MojoPub::Render" and action "bloghome".
+[Sat Nov 10 07:41:44 2012] [debug] Rendering template "example/welcome.html.ep".
+[Sat Nov 10 07:41:44 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sat Nov 10 07:41:44 2012] [debug] 200 OK (0.162312s, 6.161/s).
+[Sat Nov 10 07:41:54 2012] [debug] GET /login (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sat Nov 10 07:41:54 2012] [debug] Routing to controller "MojoPub::Auth" and action "login".
+[Sat Nov 10 07:41:54 2012] [debug] Rendering template "auth/login.html.ep".
+[Sat Nov 10 07:41:54 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Sat Nov 10 07:41:54 2012] [debug] 200 OK (0.113690s, 8.796/s).
+[Sat Nov 10 07:41:59 2012] [debug] POST /login (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sat Nov 10 07:41:59 2012] [debug] Routing to a callback.
+[Sat Nov 10 07:41:59 2012] [debug] 302 Found (0.001750s, 571.429/s).
+[Sat Nov 10 07:41:59 2012] [debug] GET /admin (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sat Nov 10 07:41:59 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Sat Nov 10 07:41:59 2012] [debug] Rendering template "admin/admin.html.ep".
+[Sat Nov 10 07:41:59 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Sat Nov 10 07:41:59 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Sat Nov 10 07:41:59 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Sat Nov 10 07:41:59 2012] [debug] 200 OK (0.014615s, 68.423/s).
+[Sat Nov 10 07:42:02 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sat Nov 10 07:42:02 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Sat Nov 10 07:42:02 2012] [debug] Rendering template "admin/addpost.html.ep".
+[Sat Nov 10 07:42:02 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Sat Nov 10 07:42:02 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Sat Nov 10 07:42:02 2012] [debug] 200 OK (0.012219s, 81.840/s).
+[Sat Nov 10 07:43:43 2012] [debug] POST /admin/savepost (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sat Nov 10 07:43:43 2012] [debug] Routing to controller "MojoPub::Save" and action "savepost".
+[Sat Nov 10 07:43:43 2012] [debug] 302 Found (0.003441s, 290.613/s).
+[Sat Nov 10 07:43:43 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sat Nov 10 07:43:43 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Sat Nov 10 07:43:43 2012] [debug] Rendering cached template "admin/admin.html.ep".
+[Sat Nov 10 07:43:43 2012] [debug] Rendering cached template "layouts/admin.html.ep".
+[Sat Nov 10 07:43:43 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Sat Nov 10 07:43:43 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Sat Nov 10 07:43:43 2012] [debug] 200 OK (0.002199s, 454.752/s).
+[Sat Nov 10 07:43:46 2012] [debug] GET /admin/posts (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sat Nov 10 07:43:46 2012] [debug] Routing to controller "MojoPub::Admin" and action "posts".
+[Sat Nov 10 07:43:46 2012] [debug] Rendering template "admin/posts.html.ep".
+[Sat Nov 10 07:43:46 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Sat Nov 10 07:43:46 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Sat Nov 10 07:43:46 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Sat Nov 10 07:43:46 2012] [debug] 200 OK (0.015841s, 63.127/s).
+[Sat Nov 10 07:43:49 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sat Nov 10 07:43:49 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Sat Nov 10 07:43:49 2012] [debug] Rendering cached template "admin/admin.html.ep".
+[Sat Nov 10 07:43:49 2012] [debug] Rendering cached template "layouts/admin.html.ep".
+[Sat Nov 10 07:43:49 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Sat Nov 10 07:43:49 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Sat Nov 10 07:43:49 2012] [debug] 200 OK (0.001817s, 550.358/s).
+[Sat Nov 10 07:43:51 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sat Nov 10 07:43:51 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Sat Nov 10 07:43:51 2012] [debug] Rendering cached template "admin/addpost.html.ep".
+[Sat Nov 10 07:43:51 2012] [debug] Rendering cached template "layouts/admin-edit.html.ep".
+[Sat Nov 10 07:43:51 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Sat Nov 10 07:43:51 2012] [debug] 200 OK (0.001550s, 645.161/s).
+[Sat Nov 10 07:45:21 2012] [debug] POST /admin/savepost (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sat Nov 10 07:45:21 2012] [debug] Routing to controller "MojoPub::Save" and action "savepost".
+[Sat Nov 10 07:45:21 2012] [debug] 302 Found (0.003859s, 259.134/s).
+[Sat Nov 10 07:45:21 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sat Nov 10 07:45:21 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Sat Nov 10 07:45:21 2012] [debug] Rendering cached template "admin/admin.html.ep".
+[Sat Nov 10 07:45:21 2012] [debug] Rendering cached template "layouts/admin.html.ep".
+[Sat Nov 10 07:45:21 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Sat Nov 10 07:45:21 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Sat Nov 10 07:45:21 2012] [debug] 200 OK (0.001956s, 511.247/s).
+[Sat Nov 10 07:45:24 2012] [debug] GET /admin/posts (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sat Nov 10 07:45:24 2012] [debug] Routing to controller "MojoPub::Admin" and action "posts".
+[Sat Nov 10 07:45:24 2012] [debug] Rendering cached template "admin/posts.html.ep".
+[Sat Nov 10 07:45:24 2012] [debug] Rendering cached template "layouts/admin.html.ep".
+[Sat Nov 10 07:45:24 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Sat Nov 10 07:45:24 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Sat Nov 10 07:45:24 2012] [debug] 200 OK (0.002860s, 349.650/s).
+[Sat Nov 10 07:45:28 2012] [debug] GET /admin/edit (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sat Nov 10 07:45:28 2012] [debug] Routing to controller "MojoPub::Admin" and action "editpost".
+[Sat Nov 10 07:45:28 2012] [debug] Rendering template "admin/editpost.html.ep".
+[Sat Nov 10 07:45:28 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Sat Nov 10 07:45:28 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Sat Nov 10 07:45:28 2012] [debug] 200 OK (0.015025s, 66.556/s).
+[Sat Nov 10 07:45:41 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sat Nov 10 07:45:41 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Sat Nov 10 07:45:41 2012] [debug] Rendering cached template "admin/addpost.html.ep".
+[Sat Nov 10 07:45:41 2012] [debug] Rendering cached template "layouts/admin-edit.html.ep".
+[Sat Nov 10 07:45:41 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Sat Nov 10 07:45:41 2012] [debug] 200 OK (0.001374s, 727.802/s).
+[Sat Nov 10 07:47:29 2012] [debug] POST /admin/savepost (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sat Nov 10 07:47:29 2012] [debug] Routing to controller "MojoPub::Save" and action "savepost".
+[Sat Nov 10 07:47:29 2012] [debug] 302 Found (0.003215s, 311.042/s).
+[Sat Nov 10 07:47:29 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sat Nov 10 07:47:29 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Sat Nov 10 07:47:29 2012] [debug] Rendering cached template "admin/admin.html.ep".
+[Sat Nov 10 07:47:29 2012] [debug] Rendering cached template "layouts/admin.html.ep".
+[Sat Nov 10 07:47:29 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Sat Nov 10 07:47:29 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Sat Nov 10 07:47:29 2012] [debug] 200 OK (0.002044s, 489.237/s).
+[Sat Nov 10 07:47:31 2012] [debug] GET /admin/posts (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sat Nov 10 07:47:31 2012] [debug] Routing to controller "MojoPub::Admin" and action "posts".
+[Sat Nov 10 07:47:31 2012] [debug] Rendering cached template "admin/posts.html.ep".
+[Sat Nov 10 07:47:31 2012] [debug] Rendering cached template "layouts/admin.html.ep".
+[Sat Nov 10 07:47:31 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Sat Nov 10 07:47:31 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Sat Nov 10 07:47:31 2012] [debug] 200 OK (0.002969s, 336.814/s).
+[Sat Nov 10 07:47:39 2012] [debug] GET /admin/edit (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sat Nov 10 07:47:39 2012] [debug] Routing to controller "MojoPub::Admin" and action "editpost".
+[Sat Nov 10 07:47:39 2012] [debug] Rendering cached template "admin/editpost.html.ep".
+[Sat Nov 10 07:47:39 2012] [debug] Rendering cached template "layouts/admin-edit.html.ep".
+[Sat Nov 10 07:47:39 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Sat Nov 10 07:47:39 2012] [debug] 200 OK (0.002929s, 341.413/s).
+[Sat Nov 10 07:47:42 2012] [debug] POST /admin/savepost (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sat Nov 10 07:47:42 2012] [debug] Routing to controller "MojoPub::Save" and action "savepost".
+[Sat Nov 10 07:47:42 2012] [debug] 302 Found (0.005765s, 173.461/s).
+[Sat Nov 10 07:47:42 2012] [debug] GET /admin/publish (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sat Nov 10 07:47:42 2012] [debug] Routing to controller "MojoPub::Save" and action "publish".
+[Sat Nov 10 07:47:42 2012] [debug] 302 Found (0.001388s, 720.461/s).
+[Sat Nov 10 07:47:42 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sat Nov 10 07:47:42 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Sat Nov 10 07:47:42 2012] [debug] Rendering cached template "admin/admin.html.ep".
+[Sat Nov 10 07:47:42 2012] [debug] Rendering cached template "layouts/admin.html.ep".
+[Sat Nov 10 07:47:42 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Sat Nov 10 07:47:42 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Sat Nov 10 07:47:42 2012] [debug] 200 OK (0.001801s, 555.247/s).
+[Sat Nov 10 07:47:45 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sat Nov 10 07:47:45 2012] [debug] Routing to controller "MojoPub::Render" and action "bloghome".
+[Sat Nov 10 07:47:45 2012] [debug] Rendering template "example/welcome.html.ep".
+[Sat Nov 10 07:47:45 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sat Nov 10 07:47:45 2012] [debug] 200 OK (0.008660s, 115.473/s).
+[Sat Nov 10 07:47:47 2012] [debug] GET /the-guitar (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sat Nov 10 07:47:47 2012] [debug] Routing to controller "MojoPub::Render" and action "blogpost".
+[Sat Nov 10 07:47:47 2012] [debug] Rendering template "example/blogpost.html.ep".
+[Sat Nov 10 07:47:47 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sat Nov 10 07:47:47 2012] [debug] 200 OK (0.010046s, 99.542/s).
+[Sun Nov 11 08:37:09 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 08:37:09 2012] [info] Listening at "http://*:3000".
+[Sun Nov 11 08:37:17 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 08:37:17 2012] [debug] Routing to controller "MojoPub::Render" and action "bloghome".
+[Sun Nov 11 08:37:17 2012] [debug] Rendering template "example/welcome.html.ep".
+[Sun Nov 11 08:37:17 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sun Nov 11 08:37:17 2012] [debug] 200 OK (0.170502s, 5.865/s).
+[Sun Nov 11 08:37:26 2012] [debug] GET /login (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 08:37:26 2012] [debug] Routing to controller "MojoPub::Auth" and action "login".
+[Sun Nov 11 08:37:26 2012] [debug] Rendering template "auth/login.html.ep".
+[Sun Nov 11 08:37:26 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Sun Nov 11 08:37:26 2012] [debug] 200 OK (0.012078s, 82.795/s).
+[Sun Nov 11 08:37:35 2012] [debug] POST /login (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 08:37:35 2012] [debug] Routing to a callback.
+[Sun Nov 11 08:37:35 2012] [debug] 302 Found (0.002153s, 464.468/s).
+[Sun Nov 11 08:37:35 2012] [debug] GET /admin (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 08:37:35 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Sun Nov 11 08:37:35 2012] [debug] Rendering template "admin/admin.html.ep".
+[Sun Nov 11 08:37:35 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Sun Nov 11 08:37:35 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Sun Nov 11 08:37:35 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Sun Nov 11 08:37:35 2012] [debug] 200 OK (0.017310s, 57.770/s).
+[Sun Nov 11 08:39:15 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 08:39:38 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 08:39:41 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 08:40:21 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 08:40:46 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 08:40:47 2012] [debug] GET /admin (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 08:40:47 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Sun Nov 11 08:40:47 2012] [debug] Rendering template "admin/admin.html.ep".
+[Sun Nov 11 08:40:47 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Sun Nov 11 08:40:47 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Sun Nov 11 08:40:47 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Sun Nov 11 08:40:47 2012] [debug] 200 OK (0.021541s, 46.423/s).
+[Sun Nov 11 08:40:51 2012] [debug] GET /admin/settings (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 08:40:51 2012] [debug] Routing to controller "MojoPub::Admin" and action "settings".
+[Sun Nov 11 08:40:51 2012] [debug] Rendering template "admin/settings.html.ep".
+[Sun Nov 11 08:40:51 2012] [debug] Rendering cached template "layouts/admin.html.ep".
+[Sun Nov 11 08:40:51 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Sun Nov 11 08:40:51 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Sun Nov 11 08:40:51 2012] [debug] 200 OK (0.007930s, 126.103/s).
+[Sun Nov 11 08:41:02 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 08:41:03 2012] [debug] GET /admin/settings (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 08:41:03 2012] [debug] Routing to controller "MojoPub::Admin" and action "settings".
+[Sun Nov 11 08:41:03 2012] [debug] Rendering template "admin/settings.html.ep".
+[Sun Nov 11 08:41:03 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Sun Nov 11 08:41:03 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Sun Nov 11 08:41:03 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Sun Nov 11 08:41:03 2012] [debug] 200 OK (0.021411s, 46.705/s).
+[Sun Nov 11 08:42:17 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 08:42:18 2012] [debug] GET /admin/settings (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 08:42:18 2012] [error] syntax error at /Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/script/../lib/MojoPub/Admin.pm line 95, near "blah
+	return"
+Compilation failed in require at (eval 251) line 1.
+
+[Sun Nov 11 08:42:18 2012] [debug] Template "exception.development.html.ep" not found.
+[Sun Nov 11 08:42:18 2012] [debug] Template "exception.html.ep" not found.
+[Sun Nov 11 08:42:18 2012] [debug] Rendering inline template.
+[Sun Nov 11 08:42:18 2012] [debug] Rendering inline template.
+[Sun Nov 11 08:42:18 2012] [debug] 500 Internal Server Error (0.038499s, 25.975/s).
+[Sun Nov 11 08:43:16 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 08:43:23 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 08:43:28 2012] [debug] GET /admin/settings (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 08:43:28 2012] [debug] Routing to controller "MojoPub::Admin" and action "settings".
+[Sun Nov 11 08:43:28 2012] [debug] Rendering template "admin/settings.html.ep".
+[Sun Nov 11 08:43:28 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Sun Nov 11 08:43:28 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Sun Nov 11 08:43:28 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Sun Nov 11 08:43:28 2012] [debug] 200 OK (0.018811s, 53.160/s).
+[Sun Nov 11 08:43:48 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 08:43:53 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 08:43:56 2012] [debug] GET /admin/settings (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 08:43:56 2012] [error] syntax error at /Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/script/../lib/MojoPub/Admin.pm line 94, near "b
+	return"
+Compilation failed in require at (eval 251) line 1.
+
+[Sun Nov 11 08:43:56 2012] [debug] Template "exception.development.html.ep" not found.
+[Sun Nov 11 08:43:56 2012] [debug] Template "exception.html.ep" not found.
+[Sun Nov 11 08:43:56 2012] [debug] Rendering inline template.
+[Sun Nov 11 08:43:56 2012] [debug] Rendering inline template.
+[Sun Nov 11 08:43:56 2012] [debug] 500 Internal Server Error (0.035746s, 27.975/s).
+[Sun Nov 11 08:44:15 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 08:44:44 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 08:45:27 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 08:45:28 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 08:45:29 2012] [debug] GET /admin/settings (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 08:45:29 2012] [debug] Routing to controller "MojoPub::Admin" and action "settings".
+[Sun Nov 11 08:45:29 2012] [debug] Rendering template "admin/settings.html.ep".
+[Sun Nov 11 08:45:29 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Sun Nov 11 08:45:29 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Sun Nov 11 08:45:29 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Sun Nov 11 08:45:29 2012] [debug] 200 OK (0.018651s, 53.616/s).
+[Sun Nov 11 08:45:33 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 08:45:33 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Sun Nov 11 08:45:33 2012] [debug] Rendering template "admin/admin.html.ep".
+[Sun Nov 11 08:45:33 2012] [debug] Rendering cached template "layouts/admin.html.ep".
+[Sun Nov 11 08:45:33 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Sun Nov 11 08:45:33 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Sun Nov 11 08:45:33 2012] [debug] 200 OK (0.004346s, 230.097/s).
+[Sun Nov 11 08:45:35 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 08:45:35 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Sun Nov 11 08:45:35 2012] [debug] Rendering template "admin/addpost.html.ep".
+[Sun Nov 11 08:45:35 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Sun Nov 11 08:45:35 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Sun Nov 11 08:45:35 2012] [debug] 200 OK (0.012590s, 79.428/s).
+[Sun Nov 11 08:47:55 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 08:47:55 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Sun Nov 11 08:47:55 2012] [debug] Rendering cached template "admin/admin.html.ep".
+[Sun Nov 11 08:47:55 2012] [debug] Rendering cached template "layouts/admin.html.ep".
+[Sun Nov 11 08:47:55 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Sun Nov 11 08:47:55 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Sun Nov 11 08:47:55 2012] [debug] 200 OK (0.001689s, 592.066/s).
+[Sun Nov 11 08:47:56 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 08:47:56 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Sun Nov 11 08:47:56 2012] [debug] Rendering cached template "admin/addpost.html.ep".
+[Sun Nov 11 08:47:56 2012] [debug] Rendering cached template "layouts/admin-edit.html.ep".
+[Sun Nov 11 08:47:56 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Sun Nov 11 08:47:56 2012] [debug] 200 OK (0.001373s, 728.332/s).
+[Sun Nov 11 08:49:15 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 08:49:42 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 08:49:52 2012] [debug] GET /admin/posts (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 08:49:52 2012] [debug] Routing to controller "MojoPub::Admin" and action "posts".
+[Sun Nov 11 08:49:52 2012] [debug] Rendering template "admin/posts.html.ep".
+[Sun Nov 11 08:49:52 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Sun Nov 11 08:49:52 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Sun Nov 11 08:49:52 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Sun Nov 11 08:49:52 2012] [debug] 200 OK (0.126710s, 7.892/s).
+[Sun Nov 11 08:50:55 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 08:50:56 2012] [debug] GET /admin/posts (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 08:50:56 2012] [debug] Routing to controller "MojoPub::Admin" and action "posts".
+[Sun Nov 11 08:50:56 2012] [debug] Rendering template "admin/posts.html.ep".
+[Sun Nov 11 08:50:56 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Sun Nov 11 08:50:56 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Sun Nov 11 08:50:56 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Sun Nov 11 08:50:56 2012] [debug] 200 OK (0.136639s, 7.319/s).
+[Sun Nov 11 08:51:45 2012] [debug] GET /perldoc (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 08:51:45 2012] [debug] Routing to a callback.
+[Sun Nov 11 08:51:45 2012] [debug] Rendering inline template.
+[Sun Nov 11 08:51:45 2012] [debug] Rendering inline template.
+[Sun Nov 11 08:51:45 2012] [debug] 200 OK (0.066293s, 15.085/s).
+[Sun Nov 11 08:51:54 2012] [debug] GET /perldoc/MongoDB/DataTypes (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 08:51:54 2012] [debug] Routing to a callback.
+[Sun Nov 11 08:51:54 2012] [debug] Rendering cached inline template.
+[Sun Nov 11 08:51:54 2012] [debug] Rendering cached inline template.
+[Sun Nov 11 08:51:54 2012] [debug] 200 OK (0.233875s, 4.276/s).
+[Sun Nov 11 08:52:16 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 08:52:18 2012] [debug] GET /admin/posts (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 08:52:18 2012] [debug] Routing to controller "MojoPub::Admin" and action "posts".
+[Sun Nov 11 08:52:18 2012] [debug] Rendering template "admin/posts.html.ep".
+[Sun Nov 11 08:52:18 2012] [error] Can't call method "ymd" on an undefined value at template "admin/posts.html.ep" line 11, near "			<td><%= $post->{'status'} %></td>".
+6: 		<tr><th>Post</th><th>Author</th><th>Saved</th><th>Status</th></tr>
+7: 	% foreach my $post (@$posts) {
+8: 		<tr>
+9: 			<td><a href="/admin/edit?id=<%= $post->{'_id'} %>"><%= $post->{'title'} %></a></td>
+10: 			<td><%= $post->{'author'} %></td>
+11: 			<td><%= dumper $post->{'last_updated'}->ymd %></td>
+12: 			<td><%= $post->{'status'} %></td>
+13: 		</tr>
+14: 	% }
+15: 	</table>
+16: </div>
+
+[Sun Nov 11 08:52:18 2012] [debug] Template "exception.development.html.ep" not found.
+[Sun Nov 11 08:52:18 2012] [debug] Template "exception.html.ep" not found.
+[Sun Nov 11 08:52:18 2012] [debug] Rendering inline template.
+[Sun Nov 11 08:52:18 2012] [debug] Rendering inline template.
+[Sun Nov 11 08:52:18 2012] [debug] 500 Internal Server Error (0.149810s, 6.675/s).
+[Sun Nov 11 08:52:48 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 08:52:51 2012] [debug] GET /admin/posts (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 08:52:51 2012] [debug] Routing to controller "MojoPub::Admin" and action "posts".
+[Sun Nov 11 08:52:51 2012] [debug] Rendering template "admin/posts.html.ep".
+[Sun Nov 11 08:52:51 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Sun Nov 11 08:52:51 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Sun Nov 11 08:52:51 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Sun Nov 11 08:52:51 2012] [debug] 200 OK (0.129937s, 7.696/s).
+[Sun Nov 11 08:54:13 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 08:54:28 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 08:54:29 2012] [debug] GET /admin/posts (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 08:54:29 2012] [debug] Routing to controller "MojoPub::Admin" and action "posts".
+[Sun Nov 11 08:54:29 2012] [debug] Rendering template "admin/posts.html.ep".
+[Sun Nov 11 08:54:29 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Sun Nov 11 08:54:29 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Sun Nov 11 08:54:29 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Sun Nov 11 08:54:29 2012] [debug] 200 OK (0.136533s, 7.324/s).
+[Sun Nov 11 08:54:36 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 08:54:37 2012] [debug] GET /admin/posts (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 08:54:37 2012] [debug] Routing to controller "MojoPub::Admin" and action "posts".
+[Sun Nov 11 08:54:37 2012] [debug] Rendering template "admin/posts.html.ep".
+[Sun Nov 11 08:54:37 2012] [error] Can't call method "ymd" without a package or object reference at template "admin/posts.html.ep" line 11, near "			<td><%= $post->{'status'} %></td>".
+6: 		<tr><th>Post</th><th>Author</th><th>Saved</th><th>Status</th></tr>
+7: 	% foreach my $post (@$posts) {
+8: 		<tr>
+9: 			<td><a href="/admin/edit?id=<%= $post->{'_id'} %>"><%= $post->{'title'} %></a></td>
+10: 			<td><%= $post->{'author'} %></td>
+11: 			<td><%= $post->{'last_updated'}->ymd %></td>
+12: 			<td><%= $post->{'status'} %></td>
+13: 		</tr>
+14: 	% }
+15: 	</table>
+16: </div>
+
+[Sun Nov 11 08:54:37 2012] [debug] Template "exception.development.html.ep" not found.
+[Sun Nov 11 08:54:37 2012] [debug] Template "exception.html.ep" not found.
+[Sun Nov 11 08:54:37 2012] [debug] Rendering inline template.
+[Sun Nov 11 08:54:37 2012] [debug] Rendering inline template.
+[Sun Nov 11 08:54:37 2012] [debug] 500 Internal Server Error (0.148763s, 6.722/s).
+[Sun Nov 11 08:56:16 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 08:56:18 2012] [debug] GET /admin/posts (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 08:56:19 2012] [debug] Routing to controller "MojoPub::Admin" and action "posts".
+[Sun Nov 11 08:56:19 2012] [debug] Rendering template "admin/posts.html.ep".
+[Sun Nov 11 08:56:19 2012] [error] Can't call method "ymd" without a package or object reference at template "admin/posts.html.ep" line 11, near "			<td><%= $post->{'status'} %></td>".
+6: 		<tr><th>Post</th><th>Author</th><th>Saved</th><th>Status</th></tr>
+7: 	% foreach my $post (@$posts) {
+8: 		<tr>
+9: 			<td><a href="/admin/edit?id=<%= $post->{'_id'} %>"><%= $post->{'title'} %></a></td>
+10: 			<td><%= $post->{'author'} %></td>
+11: 			<td><%= $post->{'last_updated'}->ymd %></td>
+12: 			<td><%= $post->{'status'} %></td>
+13: 		</tr>
+14: 	% }
+15: 	</table>
+16: </div>
+
+[Sun Nov 11 08:56:19 2012] [debug] Template "exception.development.html.ep" not found.
+[Sun Nov 11 08:56:19 2012] [debug] Template "exception.html.ep" not found.
+[Sun Nov 11 08:56:19 2012] [debug] Rendering inline template.
+[Sun Nov 11 08:56:19 2012] [debug] Rendering inline template.
+[Sun Nov 11 08:56:19 2012] [debug] 500 Internal Server Error (0.147191s, 6.794/s).
+[Sun Nov 11 08:59:02 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 08:59:07 2012] [debug] GET /admin/posts (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 08:59:08 2012] [debug] Routing to controller "MojoPub::Admin" and action "posts".
+[Sun Nov 11 08:59:08 2012] [error] Odd number of parameters in call to DateTime::from_epoch when named parameters were expected
+ at /usr/local/lib/perl5/site_perl/5.16.1/darwin-2level/DateTime.pm line 488.
+	DateTime::from_epoch(undef, 1352533423) called at /Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/script/../lib/MojoPub/Admin.pm line 76
+	MojoPub::Admin::posts('MojoPub::Admin=HASH(0x7f8efa6272e8)') called at /usr/local/lib/perl5/site_perl/5.16.1/Mojolicious/Routes.pm line 142
+	Mojolicious::Routes::_controller('Mojolicious::Routes=HASH(0x7f8efa35b1c0)', 'Mojolicious::Controller=HASH(0x7f8efa620f30)', 'HASH(0x7f8efa626e38)', 0) called at /usr/local/lib/perl5/site_perl/5.16.1/Mojolicious/Routes.pm line 205
+	Mojolicious::Routes::_walk('Mojolicious::Routes=HASH(0x7f8efa35b1c0)', 'Mojolicious::Controller=HASH(0x7f8efa620f30)') called at /usr/local/lib/perl5/site_perl/5.16.1/Mojolicious/Routes.pm line 78
+	Mojolicious::Routes::dispatch('Mojolicious::Routes=HASH(0x7f8efa35b1c0)', 'Mojolicious::Controller=HASH(0x7f8efa620f30)') called at /usr/local/lib/perl5/site_perl/5.16.1/Mojolicious.pm line 130
+	Mojolicious::dispatch('MojoPub=HASH(0x7f8efa34de48)', 'Mojolicious::Controller=HASH(0x7f8efa620f30)') called at /usr/local/lib/perl5/site_perl/5.16.1/Mojolicious.pm line 185
+	Mojolicious::_dispatch(undef, 'Mojolicious::Controller=HASH(0x7f8efa620f30)') called at /usr/local/lib/perl5/site_perl/5.16.1/Mojolicious/Plugins.pm line 20
+	Mojolicious::Plugins::__ANON__() called at /usr/local/lib/perl5/site_perl/5.16.1/Mojolicious.pm line 192
+	eval {...} called at /usr/local/lib/perl5/site_perl/5.16.1/Mojolicious.pm line 192
+	Mojolicious::_exception('CODE(0x7f8efa621008)', 'Mojolicious::Controller=HASH(0x7f8efa620f30)') called at /usr/local/lib/perl5/site_perl/5.16.1/Mojolicious/Plugins.pm line 20
+	Mojolicious::Plugins::__ANON__() called at /usr/local/lib/perl5/site_perl/5.16.1/Mojolicious/Plugins.pm line 22
+	Mojolicious::Plugins::emit_chain('Mojolicious::Plugins=HASH(0x7f8efa35b820)', 'around_dispatch', 'Mojolicious::Controller=HASH(0x7f8efa620f30)') called at /usr/local/lib/perl5/site_perl/5.16.1/Mojolicious.pm line 153
+	eval {...} called at /usr/local/lib/perl5/site_perl/5.16.1/Mojolicious.pm line 153
+	Mojolicious::handler('MojoPub=HASH(0x7f8efa34de48)', 'Mojo::Transaction::HTTP=HASH(0x7f8efa61b368)') called at /usr/local/lib/perl5/site_perl/5.16.1/Mojo/Server.pm line 14
+	Mojo::Server::__ANON__('Mojo::Server::Daemon=HASH(0x7f8efa02fc58)', 'Mojo::Transaction::HTTP=HASH(0x7f8efa61b368)') called at /usr/local/lib/perl5/site_perl/5.16.1/Mojo/EventEmitter.pm line 13
+	Mojo::EventEmitter::emit('Mojo::Server::Daemon=HASH(0x7f8efa02fc58)', 'request', 'Mojo::Transaction::HTTP=HASH(0x7f8efa61b368)') called at /usr/local/lib/perl5/site_perl/5.16.1/Mojo/Server/Daemon.pm line 79
+	Mojo::Server::Daemon::__ANON__('Mojo::Transaction::HTTP=HASH(0x7f8efa61b368)') called at /usr/local/lib/perl5/site_perl/5.16.1/Mojo/EventEmitter.pm line 13
+	Mojo::EventEmitter::emit('Mojo::Transaction::HTTP=HASH(0x7f8efa61b368)', 'request') called at /usr/local/lib/perl5/site_perl/5.16.1/Mojo/Transaction/HTTP.pm line 88
+	Mojo::Transaction::HTTP::server_read('Mojo::Transaction::HTTP=HASH(0x7f8efa61b368)', 'GET /admin/posts HTTP/1.1\x{d}\x{a}Host: 127.0.0.1:3000\x{d}\x{a}User-Agent: ...') called at /usr/local/lib/perl5/site_perl/5.16.1/Mojo/Server/Daemon.pm line 206
+	Mojo::Server::Daemon::_read('Mojo::Server::Daemon=HASH(0x7f8efa02fc58)', '90eb2683d1ca1a6e9b29a39e5a00f5fa', 'GET /admin/posts HTTP/1.1\x{d}\x{a}Host: 127.0.0.1:3000\x{d}\x{a}User-Agent: ...') called at /usr/local/lib/perl5/site_perl/5.16.1/Mojo/Server/Daemon.pm line 183
+	Mojo::Server::Daemon::__ANON__('Mojo::IOLoop::Stream=HASH(0x7f8efa61a680)') called at /usr/local/lib/perl5/site_perl/5.16.1/Mojo/EventEmitter.pm line 27
+	eval {...} called at /usr/local/lib/perl5/site_perl/5.16.1/Mojo/EventEmitter.pm line 27
+	Mojo::EventEmitter::emit_safe('Mojo::IOLoop::Stream=HASH(0x7f8efa61a680)', 'read', 'GET /admin/posts HTTP/1.1\x{d}\x{a}Host: 127.0.0.1:3000\x{d}\x{a}User-Agent: ...') called at /usr/local/lib/perl5/site_perl/5.16.1/Mojo/IOLoop/Stream.pm line 105
+	Mojo::IOLoop::Stream::_read('Mojo::IOLoop::Stream=HASH(0x7f8efa61a680)') called at /usr/local/lib/perl5/site_perl/5.16.1/Mojo/IOLoop/Stream.pm line 122
+	Mojo::IOLoop::Stream::__ANON__('Mojo::Reactor::EV=HASH(0x7f8efa1360c0)') called at /usr/local/lib/perl5/site_perl/5.16.1/Mojo/Reactor/Poll.pm line 103
+	eval {...} called at /usr/local/lib/perl5/site_perl/5.16.1/Mojo/Reactor/Poll.pm line 103
+	Mojo::Reactor::Poll::_sandbox('Mojo::Reactor::EV=HASH(0x7f8efa1360c0)', 'Read', 'CODE(0x7f8efa61a9f8)', 0) called at /usr/local/lib/perl5/site_perl/5.16.1/Mojo/Reactor/EV.pm line 48
+	Mojo::Reactor::EV::_io('Mojo::Reactor::EV=HASH(0x7f8efa1360c0)', 7, 'EV::IO=SCALAR(0x7f8efa61ae10)', 3) called at /usr/local/lib/perl5/site_perl/5.16.1/Mojo/Reactor/EV.pm line 39
+	Mojo::Reactor::EV::__ANON__('EV::IO=SCALAR(0x7f8efa61ae10)', 3) called at /usr/local/lib/perl5/site_perl/5.16.1/Mojo/Reactor/EV.pm line 20
+	eval {...} called at /usr/local/lib/perl5/site_perl/5.16.1/Mojo/Reactor/EV.pm line 20
+	Mojo::Reactor::EV::start('Mojo::Reactor::EV=HASH(0x7f8efa1360c0)') called at /usr/local/lib/perl5/site_perl/5.16.1/Mojo/IOLoop.pm line 156
+	Mojo::IOLoop::start('Mojo::IOLoop=HASH(0x7f8efa2c4288)') called at /usr/local/lib/perl5/site_perl/5.16.1/Mojo/Server/Morbo.pm line 94
+	Mojo::Server::Morbo::_spawn('Mojo::Server::Morbo=HASH(0x7f8efa029898)') called at /usr/local/lib/perl5/site_perl/5.16.1/Mojo/Server/Morbo.pm line 64
+	Mojo::Server::Morbo::_manage('Mojo::Server::Morbo=HASH(0x7f8efa029898)') called at /usr/local/lib/perl5/site_perl/5.16.1/Mojo/Server/Morbo.pm line 36
+	Mojo::Server::Morbo::run('Mojo::Server::Morbo=HASH(0x7f8efa029898)', 'script/mojo_pub') called at /usr/local/bin/morbo line 44
+
+[Sun Nov 11 08:59:08 2012] [debug] Template "exception.development.html.ep" not found.
+[Sun Nov 11 08:59:08 2012] [debug] Template "exception.html.ep" not found.
+[Sun Nov 11 08:59:08 2012] [debug] Rendering inline template.
+[Sun Nov 11 08:59:08 2012] [debug] Rendering inline template.
+[Sun Nov 11 08:59:08 2012] [debug] 500 Internal Server Error (0.239733s, 4.171/s).
+[Sun Nov 11 08:59:51 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 08:59:53 2012] [debug] GET /admin/posts (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 08:59:53 2012] [debug] Routing to controller "MojoPub::Admin" and action "posts".
+[Sun Nov 11 08:59:53 2012] [debug] Rendering template "admin/posts.html.ep".
+[Sun Nov 11 08:59:53 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Sun Nov 11 08:59:53 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Sun Nov 11 08:59:53 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Sun Nov 11 08:59:53 2012] [debug] 200 OK (0.128167s, 7.802/s).
+[Sun Nov 11 09:00:06 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 09:00:56 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 09:01:53 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 09:01:57 2012] [debug] GET /admin/posts (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 09:01:57 2012] [debug] Routing to controller "MojoPub::Admin" and action "posts".
+[Sun Nov 11 09:01:57 2012] [debug] Rendering template "admin/posts.html.ep".
+[Sun Nov 11 09:01:57 2012] [error] Can't locate object method "hm" via package "DateTime" at template "admin/posts.html.ep" line 11, near "			<td><%= $post->{'status'} %></td>".
+6: 		<tr><th>Post</th><th>Author</th><th>Saved</th><th>Status</th></tr>
+7: 	% foreach my $post (@$posts) {
+8: 		<tr>
+9: 			<td><a href="/admin/edit?id=<%= $post->{'_id'} %>"><%= $post->{'title'} %></a></td>
+10: 			<td><%= $post->{'author'} %></td>
+11: 			<td><%= $post->{'last_updated'}->ymd %> <%= $post->{'last_updated'}->hm %></td>
+12: 			<td><%= $post->{'status'} %></td>
+13: 		</tr>
+14: 	% }
+15: 	</table>
+16: </div>
+
+[Sun Nov 11 09:01:57 2012] [debug] Template "exception.development.html.ep" not found.
+[Sun Nov 11 09:01:57 2012] [debug] Template "exception.html.ep" not found.
+[Sun Nov 11 09:01:57 2012] [debug] Rendering inline template.
+[Sun Nov 11 09:01:57 2012] [debug] Rendering inline template.
+[Sun Nov 11 09:01:57 2012] [debug] 500 Internal Server Error (0.161328s, 6.199/s).
+[Sun Nov 11 09:02:01 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 09:02:01 2012] [debug] GET /admin/posts (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 09:02:01 2012] [debug] Routing to controller "MojoPub::Admin" and action "posts".
+[Sun Nov 11 09:02:01 2012] [debug] Rendering template "admin/posts.html.ep".
+[Sun Nov 11 09:02:01 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Sun Nov 11 09:02:01 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Sun Nov 11 09:02:01 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Sun Nov 11 09:02:01 2012] [debug] 200 OK (0.129929s, 7.697/s).
+[Sun Nov 11 09:03:40 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 09:03:42 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 09:03:42 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Sun Nov 11 09:03:42 2012] [debug] Rendering template "admin/addpost.html.ep".
+[Sun Nov 11 09:03:42 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Sun Nov 11 09:03:42 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Sun Nov 11 09:03:42 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Sun Nov 11 09:03:42 2012] [debug] 200 OK (0.120019s, 8.332/s).
+[Sun Nov 11 09:03:51 2012] [debug] GET /admin/settings (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 09:03:51 2012] [debug] Routing to controller "MojoPub::Admin" and action "settings".
+[Sun Nov 11 09:03:51 2012] [debug] Rendering template "admin/settings.html.ep".
+[Sun Nov 11 09:03:51 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Sun Nov 11 09:03:51 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Sun Nov 11 09:03:51 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Sun Nov 11 09:03:51 2012] [debug] 200 OK (0.010724s, 93.249/s).
+[Sun Nov 11 09:03:53 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 09:03:53 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Sun Nov 11 09:03:53 2012] [debug] Rendering cached template "admin/addpost.html.ep".
+[Sun Nov 11 09:03:53 2012] [debug] Rendering cached template "layouts/admin-edit.html.ep".
+[Sun Nov 11 09:03:53 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Sun Nov 11 09:03:53 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Sun Nov 11 09:03:53 2012] [debug] 200 OK (0.001692s, 591.017/s).
+[Sun Nov 11 09:03:56 2012] [debug] GET /admin/posts (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 09:03:56 2012] [debug] Routing to controller "MojoPub::Admin" and action "posts".
+[Sun Nov 11 09:03:56 2012] [debug] Rendering template "admin/posts.html.ep".
+[Sun Nov 11 09:03:56 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Sun Nov 11 09:03:56 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Sun Nov 11 09:03:56 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Sun Nov 11 09:03:56 2012] [debug] 200 OK (0.024859s, 40.227/s).
+[Sun Nov 11 09:04:00 2012] [debug] GET /admin/edit (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 09:04:00 2012] [debug] Routing to controller "MojoPub::Admin" and action "editpost".
+[Sun Nov 11 09:04:00 2012] [debug] Rendering template "admin/editpost.html.ep".
+[Sun Nov 11 09:04:00 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Sun Nov 11 09:04:00 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Sun Nov 11 09:04:00 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Sun Nov 11 09:04:00 2012] [debug] 200 OK (0.018709s, 53.450/s).
+[Sun Nov 11 09:04:30 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 09:04:30 2012] [debug] GET /admin/edit (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 09:04:30 2012] [debug] Routing to controller "MojoPub::Admin" and action "editpost".
+[Sun Nov 11 09:04:30 2012] [debug] Rendering template "admin/editpost.html.ep".
+[Sun Nov 11 09:04:30 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Sun Nov 11 09:04:30 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Sun Nov 11 09:04:30 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Sun Nov 11 09:04:30 2012] [debug] 200 OK (0.133396s, 7.496/s).
+[Sun Nov 11 09:04:41 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 09:04:42 2012] [debug] GET /admin/edit (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 09:04:42 2012] [debug] Routing to controller "MojoPub::Admin" and action "editpost".
+[Sun Nov 11 09:04:42 2012] [debug] Rendering template "admin/editpost.html.ep".
+[Sun Nov 11 09:04:42 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Sun Nov 11 09:04:42 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Sun Nov 11 09:04:42 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Sun Nov 11 09:04:42 2012] [debug] 200 OK (0.142989s, 6.994/s).
+[Sun Nov 11 09:05:49 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 09:06:17 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 09:07:16 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 09:11:26 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 09:11:31 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 09:11:31 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Sun Nov 11 09:11:31 2012] [debug] Rendering template "admin/admin.html.ep".
+[Sun Nov 11 09:11:31 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Sun Nov 11 09:11:31 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Sun Nov 11 09:11:31 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Sun Nov 11 09:11:31 2012] [debug] 200 OK (0.114533s, 8.731/s).
+[Sun Nov 11 09:11:33 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 09:11:33 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Sun Nov 11 09:11:33 2012] [debug] Rendering template "admin/addpost.html.ep".
+[Sun Nov 11 09:11:33 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Sun Nov 11 09:11:33 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Sun Nov 11 09:11:33 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Sun Nov 11 09:11:33 2012] [debug] 200 OK (0.010675s, 93.677/s).
+[Sun Nov 11 09:11:37 2012] [debug] GET /admin/theme (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 09:11:37 2012] [debug] Template "not_found.development.html.ep" not found.
+[Sun Nov 11 09:11:37 2012] [debug] Template "not_found.html.ep" not found.
+[Sun Nov 11 09:11:37 2012] [debug] Rendering inline template.
+[Sun Nov 11 09:11:37 2012] [debug] Rendering inline template.
+[Sun Nov 11 09:11:37 2012] [debug] 404 Not Found (0.020892s, 47.865/s).
+[Sun Nov 11 09:11:53 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Sun Nov 11 09:11:54 2012] [debug] GET /admin/theme (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 09:11:54 2012] [debug] Routing to controller "MojoPub::Admin" and action "theme".
+[Sun Nov 11 09:11:54 2012] [debug] Rendering template "admin/theme.html.ep".
+[Sun Nov 11 09:11:54 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Sun Nov 11 09:11:54 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Sun Nov 11 09:11:54 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Sun Nov 11 09:11:54 2012] [debug] 200 OK (0.120059s, 8.329/s).
+[Sun Nov 11 09:11:59 2012] [debug] GET /admin/settings (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 09:11:59 2012] [debug] Routing to controller "MojoPub::Admin" and action "settings".
+[Sun Nov 11 09:11:59 2012] [debug] Rendering template "admin/settings.html.ep".
+[Sun Nov 11 09:11:59 2012] [debug] Rendering cached template "layouts/admin.html.ep".
+[Sun Nov 11 09:11:59 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Sun Nov 11 09:11:59 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Sun Nov 11 09:11:59 2012] [debug] 200 OK (0.004108s, 243.427/s).
+[Sun Nov 11 09:12:00 2012] [debug] GET /admin/posts (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 09:12:00 2012] [debug] Routing to controller "MojoPub::Admin" and action "posts".
+[Sun Nov 11 09:12:00 2012] [debug] Rendering template "admin/posts.html.ep".
+[Sun Nov 11 09:12:00 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Sun Nov 11 09:12:00 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Sun Nov 11 09:12:00 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Sun Nov 11 09:12:00 2012] [debug] 200 OK (0.025452s, 39.290/s).
+[Sun Nov 11 09:12:02 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Sun Nov 11 09:12:02 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Sun Nov 11 09:12:02 2012] [debug] Rendering template "admin/admin.html.ep".
+[Sun Nov 11 09:12:02 2012] [debug] Rendering cached template "layouts/admin.html.ep".
+[Sun Nov 11 09:12:02 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Sun Nov 11 09:12:02 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Sun Nov 11 09:12:02 2012] [debug] 200 OK (0.004248s, 235.405/s).
+[Mon Nov 12 17:30:42 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Mon Nov 12 17:30:42 2012] [info] Listening at "http://*:3000".
+[Mon Nov 12 17:31:02 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Mon Nov 12 17:31:02 2012] [debug] Routing to controller "MojoPub::Render" and action "bloghome".
+[Mon Nov 12 17:31:02 2012] [debug] Rendering template "example/welcome.html.ep".
+[Mon Nov 12 17:31:02 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Nov 12 17:31:02 2012] [debug] 200 OK (0.177480s, 5.634/s).
+[Mon Nov 12 17:31:05 2012] [debug] GET /login (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Mon Nov 12 17:31:05 2012] [debug] Routing to controller "MojoPub::Auth" and action "login".
+[Mon Nov 12 17:31:05 2012] [debug] Rendering template "auth/login.html.ep".
+[Mon Nov 12 17:31:05 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Mon Nov 12 17:31:05 2012] [debug] 200 OK (0.013288s, 75.256/s).
+[Mon Nov 12 17:31:11 2012] [debug] POST /login (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Mon Nov 12 17:31:11 2012] [debug] Routing to a callback.
+[Mon Nov 12 17:31:11 2012] [debug] 302 Found (0.002022s, 494.560/s).
+[Mon Nov 12 17:31:11 2012] [debug] GET /admin (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Mon Nov 12 17:31:11 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Mon Nov 12 17:31:11 2012] [debug] Rendering template "admin/admin.html.ep".
+[Mon Nov 12 17:31:11 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Mon Nov 12 17:31:11 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Mon Nov 12 17:31:11 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Mon Nov 12 17:31:11 2012] [debug] 200 OK (0.013820s, 72.359/s).
+[Mon Nov 12 17:31:47 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Mon Nov 12 17:31:47 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Mon Nov 12 17:31:47 2012] [debug] Rendering template "admin/addpost.html.ep".
+[Mon Nov 12 17:31:47 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Mon Nov 12 17:31:47 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Mon Nov 12 17:31:47 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Mon Nov 12 17:31:47 2012] [debug] 200 OK (0.010171s, 98.319/s).
+[Mon Nov 12 17:31:56 2012] [debug] POST /admin/savepost (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Mon Nov 12 17:31:56 2012] [debug] Routing to controller "MojoPub::Save" and action "savepost".
+[Mon Nov 12 17:31:56 2012] [debug] 302 Found (0.004431s, 225.683/s).
+[Mon Nov 12 17:31:56 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Mon Nov 12 17:31:56 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Mon Nov 12 17:31:56 2012] [debug] Rendering cached template "admin/admin.html.ep".
+[Mon Nov 12 17:31:56 2012] [debug] Rendering cached template "layouts/admin.html.ep".
+[Mon Nov 12 17:31:56 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Mon Nov 12 17:31:56 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Mon Nov 12 17:31:56 2012] [debug] 200 OK (0.002901s, 344.709/s).
+[Mon Nov 12 17:31:59 2012] [debug] GET /admin/posts (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Mon Nov 12 17:31:59 2012] [debug] Routing to controller "MojoPub::Admin" and action "posts".
+[Mon Nov 12 17:31:59 2012] [debug] Rendering template "admin/posts.html.ep".
+[Mon Nov 12 17:31:59 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Mon Nov 12 17:31:59 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Mon Nov 12 17:31:59 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Mon Nov 12 17:31:59 2012] [debug] 200 OK (0.014093s, 70.957/s).
+[Mon Nov 12 17:32:04 2012] [debug] GET /admin/edit (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Mon Nov 12 17:32:04 2012] [debug] Routing to controller "MojoPub::Admin" and action "editpost".
+[Mon Nov 12 17:32:04 2012] [debug] Rendering template "admin/editpost.html.ep".
+[Mon Nov 12 17:32:04 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Mon Nov 12 17:32:04 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Mon Nov 12 17:32:04 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Mon Nov 12 17:32:04 2012] [debug] 200 OK (0.017734s, 56.389/s).
+[Mon Nov 12 17:32:09 2012] [debug] POST /admin/savepost (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Mon Nov 12 17:32:09 2012] [debug] Routing to controller "MojoPub::Save" and action "savepost".
+[Mon Nov 12 17:32:09 2012] [debug] 302 Found (0.004514s, 221.533/s).
+[Mon Nov 12 17:32:09 2012] [debug] GET /admin/publish (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Mon Nov 12 17:32:09 2012] [debug] Routing to controller "MojoPub::Save" and action "publish".
+[Mon Nov 12 17:32:09 2012] [debug] 302 Found (0.001428s, 700.280/s).
+[Mon Nov 12 17:32:09 2012] [debug] GET /admin/posts (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Mon Nov 12 17:32:09 2012] [debug] Routing to controller "MojoPub::Admin" and action "posts".
+[Mon Nov 12 17:32:09 2012] [debug] Rendering cached template "admin/posts.html.ep".
+[Mon Nov 12 17:32:09 2012] [debug] Rendering cached template "layouts/admin.html.ep".
+[Mon Nov 12 17:32:09 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Mon Nov 12 17:32:09 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Mon Nov 12 17:32:09 2012] [debug] 200 OK (0.003385s, 295.421/s).
+[Mon Nov 12 17:32:11 2012] [debug] GET /admin/edit (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Mon Nov 12 17:32:11 2012] [debug] Routing to controller "MojoPub::Admin" and action "editpost".
+[Mon Nov 12 17:32:11 2012] [debug] Rendering cached template "admin/editpost.html.ep".
+[Mon Nov 12 17:32:11 2012] [debug] Rendering cached template "layouts/admin-edit.html.ep".
+[Mon Nov 12 17:32:11 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Mon Nov 12 17:32:11 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Mon Nov 12 17:32:11 2012] [debug] 200 OK (0.002765s, 361.664/s).
+[Mon Nov 12 17:32:14 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Mon Nov 12 17:32:14 2012] [debug] Routing to controller "MojoPub::Render" and action "bloghome".
+[Mon Nov 12 17:32:14 2012] [debug] Rendering template "example/welcome.html.ep".
+[Mon Nov 12 17:32:14 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Nov 12 17:32:14 2012] [debug] 200 OK (0.007458s, 134.084/s).
+[Mon Nov 12 17:32:16 2012] [debug] GET /test (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Mon Nov 12 17:32:16 2012] [debug] Routing to controller "MojoPub::Render" and action "blogpost".
+[Mon Nov 12 17:32:16 2012] [debug] Rendering template "example/blogpost.html.ep".
+[Mon Nov 12 17:32:16 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Nov 12 17:32:16 2012] [debug] 200 OK (0.010255s, 97.513/s).
+[Mon Nov 12 17:34:17 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Mon Nov 12 17:34:43 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Mon Nov 12 17:34:45 2012] [debug] GET /test (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Mon Nov 12 17:34:45 2012] [debug] Routing to controller "MojoPub::Render" and action "blogpost".
+[Mon Nov 12 17:34:45 2012] [debug] Rendering template "example/blogpost.html.ep".
+[Mon Nov 12 17:34:45 2012] [debug] Rendering template "layouts/default.html.ep".
+[Mon Nov 12 17:34:45 2012] [debug] 200 OK (0.124253s, 8.048/s).
+[Tue Nov 13 07:39:34 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 07:39:36 2012] [debug] GET /test (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 07:39:37 2012] [debug] Routing to controller "MojoPub::Render" and action "blogpost".
+[Tue Nov 13 07:39:37 2012] [debug] Rendering template "example/blogpost.html.ep".
+[Tue Nov 13 07:39:37 2012] [debug] Rendering template "layouts/default.html.ep".
+[Tue Nov 13 07:39:37 2012] [debug] 200 OK (0.188937s, 5.293/s).
+[Tue Nov 13 07:39:40 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 07:39:40 2012] [debug] Routing to controller "MojoPub::Render" and action "bloghome".
+[Tue Nov 13 07:39:40 2012] [debug] Rendering template "example/welcome.html.ep".
+[Tue Nov 13 07:39:40 2012] [debug] Rendering template "layouts/default.html.ep".
+[Tue Nov 13 07:39:40 2012] [debug] 200 OK (0.010323s, 96.871/s).
+[Tue Nov 13 07:39:42 2012] [debug] GET /login (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 07:39:42 2012] [debug] Routing to controller "MojoPub::Auth" and action "login".
+[Tue Nov 13 07:39:42 2012] [debug] Rendering template "auth/login.html.ep".
+[Tue Nov 13 07:39:42 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Tue Nov 13 07:39:42 2012] [debug] 200 OK (0.011347s, 88.129/s).
+[Tue Nov 13 07:39:46 2012] [debug] POST /login (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 07:39:46 2012] [debug] Routing to a callback.
+[Tue Nov 13 07:39:46 2012] [debug] 302 Found (0.001255s, 796.813/s).
+[Tue Nov 13 07:39:46 2012] [debug] GET /admin (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 07:39:46 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Tue Nov 13 07:39:46 2012] [debug] Rendering template "admin/admin.html.ep".
+[Tue Nov 13 07:39:46 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Tue Nov 13 07:39:46 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Tue Nov 13 07:39:46 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Tue Nov 13 07:39:46 2012] [debug] 200 OK (0.018063s, 55.362/s).
+[Tue Nov 13 07:39:49 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 07:39:49 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Tue Nov 13 07:39:49 2012] [debug] Rendering template "admin/addpost.html.ep".
+[Tue Nov 13 07:39:49 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Tue Nov 13 07:39:49 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Tue Nov 13 07:39:49 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Tue Nov 13 07:39:49 2012] [debug] 200 OK (0.018223s, 54.876/s).
+[Tue Nov 13 07:41:58 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 07:42:02 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 07:42:02 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Tue Nov 13 07:42:02 2012] [debug] Rendering template "admin/addpost.html.ep".
+[Tue Nov 13 07:42:02 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Tue Nov 13 07:42:02 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Tue Nov 13 07:42:02 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Tue Nov 13 07:42:02 2012] [debug] 200 OK (0.117049s, 8.543/s).
+[Tue Nov 13 07:42:34 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 07:42:34 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 07:42:34 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Tue Nov 13 07:42:34 2012] [debug] Rendering template "admin/addpost.html.ep".
+[Tue Nov 13 07:42:34 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Tue Nov 13 07:42:34 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Tue Nov 13 07:42:34 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Tue Nov 13 07:42:34 2012] [debug] 200 OK (0.117382s, 8.519/s).
+[Tue Nov 13 07:44:14 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 07:44:40 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 07:44:40 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 07:44:40 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Tue Nov 13 07:44:40 2012] [debug] Rendering template "admin/addpost.html.ep".
+[Tue Nov 13 07:44:40 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Tue Nov 13 07:44:40 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Tue Nov 13 07:44:40 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Tue Nov 13 07:44:40 2012] [debug] 200 OK (0.123151s, 8.120/s).
+[Tue Nov 13 07:46:11 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 07:57:34 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 07:57:35 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 07:57:35 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Tue Nov 13 07:57:35 2012] [debug] Rendering template "admin/addpost.html.ep".
+[Tue Nov 13 07:57:35 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Tue Nov 13 07:57:35 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Tue Nov 13 07:57:35 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Tue Nov 13 07:57:35 2012] [debug] 200 OK (0.120502s, 8.299/s).
+[Tue Nov 13 07:59:39 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 07:59:41 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 07:59:41 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Tue Nov 13 07:59:41 2012] [debug] Rendering template "admin/addpost.html.ep".
+[Tue Nov 13 07:59:41 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Tue Nov 13 07:59:41 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Tue Nov 13 07:59:41 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Tue Nov 13 07:59:41 2012] [debug] 200 OK (0.154068s, 6.491/s).
+[Tue Nov 13 08:00:57 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 08:00:58 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 08:00:58 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Tue Nov 13 08:00:58 2012] [debug] Rendering template "admin/addpost.html.ep".
+[Tue Nov 13 08:00:58 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Tue Nov 13 08:00:58 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Tue Nov 13 08:00:58 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Tue Nov 13 08:00:58 2012] [debug] 200 OK (0.117491s, 8.511/s).
+[Tue Nov 13 08:01:50 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 08:01:52 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 08:01:52 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Tue Nov 13 08:01:52 2012] [debug] Rendering template "admin/addpost.html.ep".
+[Tue Nov 13 08:01:52 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Tue Nov 13 08:01:52 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Tue Nov 13 08:01:52 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Tue Nov 13 08:01:52 2012] [debug] 200 OK (0.120046s, 8.330/s).
+[Tue Nov 13 08:01:57 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 08:01:57 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Tue Nov 13 08:01:57 2012] [debug] Rendering cached template "admin/addpost.html.ep".
+[Tue Nov 13 08:01:57 2012] [debug] Rendering cached template "layouts/admin-edit.html.ep".
+[Tue Nov 13 08:01:57 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Tue Nov 13 08:01:57 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Tue Nov 13 08:01:57 2012] [debug] 200 OK (0.001858s, 538.213/s).
+[Tue Nov 13 08:01:58 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 08:02:03 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 08:02:03 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Tue Nov 13 08:02:03 2012] [debug] Rendering template "admin/addpost.html.ep".
+[Tue Nov 13 08:02:03 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Tue Nov 13 08:02:03 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Tue Nov 13 08:02:03 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Tue Nov 13 08:02:03 2012] [debug] 200 OK (0.118346s, 8.450/s).
+[Tue Nov 13 08:04:36 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 08:07:28 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 08:09:09 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 08:09:29 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 08:09:46 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 08:09:46 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Tue Nov 13 08:09:46 2012] [debug] Rendering template "admin/addpost.html.ep".
+[Tue Nov 13 08:09:46 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Tue Nov 13 08:09:46 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Tue Nov 13 08:09:46 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Tue Nov 13 08:09:46 2012] [debug] 200 OK (0.120461s, 8.301/s).
+[Tue Nov 13 08:10:06 2012] [debug] POST /admin/savepost (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 08:10:06 2012] [debug] Routing to controller "MojoPub::Save" and action "savepost".
+[Tue Nov 13 08:10:06 2012] [debug] 302 Found (0.011656s, 85.793/s).
+[Tue Nov 13 08:10:06 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 08:10:06 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Tue Nov 13 08:10:06 2012] [debug] Rendering template "admin/admin.html.ep".
+[Tue Nov 13 08:10:06 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Tue Nov 13 08:10:06 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Tue Nov 13 08:10:06 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Tue Nov 13 08:10:06 2012] [debug] 200 OK (0.008050s, 124.224/s).
+[Tue Nov 13 08:10:09 2012] [debug] GET /admin/posts (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 08:10:09 2012] [debug] Routing to controller "MojoPub::Admin" and action "posts".
+[Tue Nov 13 08:10:09 2012] [debug] Rendering template "admin/posts.html.ep".
+[Tue Nov 13 08:10:09 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Tue Nov 13 08:10:09 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Tue Nov 13 08:10:09 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Tue Nov 13 08:10:09 2012] [debug] 200 OK (0.020017s, 49.958/s).
+[Tue Nov 13 08:10:13 2012] [debug] GET /admin/edit (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 08:10:13 2012] [debug] Routing to controller "MojoPub::Admin" and action "editpost".
+[Tue Nov 13 08:10:13 2012] [debug] Rendering template "admin/editpost.html.ep".
+[Tue Nov 13 08:10:13 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Tue Nov 13 08:10:13 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Tue Nov 13 08:10:13 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Tue Nov 13 08:10:13 2012] [debug] 200 OK (0.025474s, 39.256/s).
+[Tue Nov 13 08:11:10 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 08:11:49 2012] [debug] GET /perldoc/MongoDB/Tutorial (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 08:11:49 2012] [debug] Routing to a callback.
+[Tue Nov 13 08:11:49 2012] [debug] Rendering inline template.
+[Tue Nov 13 08:11:49 2012] [debug] Rendering inline template.
+[Tue Nov 13 08:11:49 2012] [debug] 200 OK (0.107930s, 9.265/s).
+[Tue Nov 13 08:12:08 2012] [debug] GET /perldoc/MongoDB/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 08:12:08 2012] [debug] Routing to a callback.
+[Tue Nov 13 08:12:08 2012] [debug] Rendering cached inline template.
+[Tue Nov 13 08:12:08 2012] [debug] Rendering cached inline template.
+[Tue Nov 13 08:12:08 2012] [debug] 200 OK (0.080790s, 12.378/s).
+[Tue Nov 13 08:12:17 2012] [debug] GET /perldoc/MongoDB/Examples (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 08:12:17 2012] [debug] Routing to a callback.
+[Tue Nov 13 08:12:17 2012] [debug] Rendering cached inline template.
+[Tue Nov 13 08:12:17 2012] [debug] Rendering cached inline template.
+[Tue Nov 13 08:12:17 2012] [debug] 200 OK (0.105769s, 9.455/s).
+[Tue Nov 13 08:13:01 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 08:13:10 2012] [debug] GET /admin/posts (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 08:13:10 2012] [debug] Routing to controller "MojoPub::Admin" and action "posts".
+[Tue Nov 13 08:13:10 2012] [debug] Rendering template "admin/posts.html.ep".
+[Tue Nov 13 08:13:11 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Tue Nov 13 08:13:11 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Tue Nov 13 08:13:11 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Tue Nov 13 08:13:11 2012] [debug] 200 OK (0.223629s, 4.472/s).
+[Tue Nov 13 08:13:13 2012] [debug] GET /admin/posts (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 08:13:13 2012] [debug] Routing to controller "MojoPub::Admin" and action "posts".
+[Tue Nov 13 08:13:13 2012] [debug] Rendering cached template "admin/posts.html.ep".
+[Tue Nov 13 08:13:13 2012] [debug] Rendering cached template "layouts/admin.html.ep".
+[Tue Nov 13 08:13:13 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Tue Nov 13 08:13:13 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Tue Nov 13 08:13:13 2012] [debug] 200 OK (0.003179s, 314.564/s).
+[Tue Nov 13 08:13:37 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 08:13:39 2012] [debug] GET /admin/posts (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 08:13:39 2012] [debug] Routing to controller "MojoPub::Admin" and action "posts".
+[Tue Nov 13 08:13:39 2012] [debug] Rendering template "admin/posts.html.ep".
+[Tue Nov 13 08:13:39 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Tue Nov 13 08:13:39 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Tue Nov 13 08:13:39 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Tue Nov 13 08:13:39 2012] [debug] 200 OK (0.126240s, 7.921/s).
+[Tue Nov 13 08:13:59 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 08:14:01 2012] [debug] GET /admin/posts (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 08:14:02 2012] [debug] Routing to controller "MojoPub::Admin" and action "posts".
+[Tue Nov 13 08:14:02 2012] [debug] Rendering template "admin/posts.html.ep".
+[Tue Nov 13 08:14:02 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Tue Nov 13 08:14:02 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Tue Nov 13 08:14:02 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Tue Nov 13 08:14:02 2012] [debug] 200 OK (0.119919s, 8.339/s).
+[Tue Nov 13 13:52:13 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 13:52:13 2012] [info] Listening at "http://*:3000".
+[Tue Nov 13 13:52:14 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 13:52:14 2012] [debug] Routing to controller "MojoPub::Render" and action "bloghome".
+[Tue Nov 13 13:52:14 2012] [debug] Rendering template "example/welcome.html.ep".
+[Tue Nov 13 13:52:14 2012] [debug] Rendering template "layouts/default.html.ep".
+[Tue Nov 13 13:52:14 2012] [debug] 200 OK (0.148936s, 6.714/s).
+[Tue Nov 13 13:52:34 2012] [debug] GET /login (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 13:52:34 2012] [debug] Routing to controller "MojoPub::Auth" and action "login".
+[Tue Nov 13 13:52:34 2012] [debug] Rendering template "auth/login.html.ep".
+[Tue Nov 13 13:52:34 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Tue Nov 13 13:52:34 2012] [debug] 200 OK (0.012269s, 81.506/s).
+[Tue Nov 13 13:52:39 2012] [debug] POST /login (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 13:52:39 2012] [debug] Routing to a callback.
+[Tue Nov 13 13:52:39 2012] [debug] 302 Found (0.001734s, 576.701/s).
+[Tue Nov 13 13:52:39 2012] [debug] GET /admin (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 13:52:39 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Tue Nov 13 13:52:39 2012] [debug] Rendering template "admin/admin.html.ep".
+[Tue Nov 13 13:52:39 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Tue Nov 13 13:52:39 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Tue Nov 13 13:52:39 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Tue Nov 13 13:52:39 2012] [debug] 200 OK (0.014780s, 67.659/s).
+[Tue Nov 13 13:52:41 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 13:52:41 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Tue Nov 13 13:52:41 2012] [debug] Rendering template "admin/addpost.html.ep".
+[Tue Nov 13 13:52:41 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Tue Nov 13 13:52:41 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Tue Nov 13 13:52:41 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Tue Nov 13 13:52:41 2012] [debug] 200 OK (0.014990s, 66.711/s).
+[Tue Nov 13 13:52:50 2012] [debug] GET /admin/posts (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 13:52:50 2012] [debug] Routing to controller "MojoPub::Admin" and action "posts".
+[Tue Nov 13 13:52:50 2012] [debug] Rendering template "admin/posts.html.ep".
+[Tue Nov 13 13:52:50 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Tue Nov 13 13:52:50 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Tue Nov 13 13:52:50 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Tue Nov 13 13:52:50 2012] [debug] 200 OK (0.022738s, 43.979/s).
+[Tue Nov 13 13:52:52 2012] [debug] GET /admin/edit (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 13:52:52 2012] [debug] Routing to controller "MojoPub::Admin" and action "editpost".
+[Tue Nov 13 13:52:52 2012] [debug] Rendering template "admin/editpost.html.ep".
+[Tue Nov 13 13:52:52 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Tue Nov 13 13:52:52 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Tue Nov 13 13:52:52 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Tue Nov 13 13:52:52 2012] [debug] 200 OK (0.028034s, 35.671/s).
+[Tue Nov 13 13:52:56 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 13:52:56 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Tue Nov 13 13:52:56 2012] [debug] Rendering cached template "admin/addpost.html.ep".
+[Tue Nov 13 13:52:56 2012] [debug] Rendering cached template "layouts/admin-edit.html.ep".
+[Tue Nov 13 13:52:56 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Tue Nov 13 13:52:56 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Tue Nov 13 13:52:56 2012] [debug] 200 OK (0.002818s, 354.862/s).
+[Tue Nov 13 17:59:49 2012] [debug] GET /admin/lists/image_list.js (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 17:59:49 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Nov 13 17:59:49 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Nov 13 17:59:49 2012] [debug] Rendering inline template.
+[Tue Nov 13 17:59:49 2012] [debug] Rendering inline template.
+[Tue Nov 13 17:59:49 2012] [debug] 404 Not Found (0.022095s, 45.259/s).
+[Tue Nov 13 17:59:49 2012] [debug] GET /admin/lists/image_list.js (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 17:59:49 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Nov 13 17:59:49 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Nov 13 17:59:49 2012] [debug] Rendering cached inline template.
+[Tue Nov 13 17:59:49 2012] [debug] Rendering cached inline template.
+[Tue Nov 13 17:59:49 2012] [debug] 404 Not Found (0.008332s, 120.019/s).
+[Tue Nov 13 18:00:34 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:01:36 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:02:03 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:02:51 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:03:35 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:03:42 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:09:07 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:10:05 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:10:09 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:10:31 2012] [debug] GET /feed (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:10:31 2012] [debug] Class "MojoPub::Feed" is not a controller.
+[Tue Nov 13 18:10:31 2012] [debug] Rendering template "feed/rss.html.ep".
+[Tue Nov 13 18:10:31 2012] [error] Global symbol "$meta" requires explicit package name at template "feed/rss.html.ep" line 4, near "        <description>This is an example of an RSS feed</description>".
+Global symbol "$posts" requires explicit package name at template "feed/rss.html.ep" line 10, near "        <item>".
+1: <?xml version="1.0" encoding="UTF-8" ?>
+2: <rss version="2.0">
+3: <channel>
+4:         <title><%= $meta->{brand} %></title>
+5:         <description>This is an example of an RSS feed</description>
+6:         <link>http://www.someexamplerssdomain.com/main.html</link>
+7:         <lastBuildDate>Mon, 06 Sep 2010 00:01:00 +0000</lastBuildDate>
+8:         <pubDate>Mon, 06 Sep 2009 16:45:00 +0000</pubDate>
+9:         <ttl>1800</ttl>
+
+[Tue Nov 13 18:10:31 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Nov 13 18:10:31 2012] [debug] Template "exception.html.ep" not found.
+[Tue Nov 13 18:10:31 2012] [debug] Rendering inline template.
+[Tue Nov 13 18:10:31 2012] [debug] Rendering inline template.
+[Tue Nov 13 18:10:31 2012] [debug] 500 Internal Server Error (0.151995s, 6.579/s).
+[Tue Nov 13 18:10:47 2012] [debug] GET /feed (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:10:47 2012] [debug] Class "MojoPub::Feed" is not a controller.
+[Tue Nov 13 18:10:47 2012] [debug] Rendering template "feed/rss.html.ep".
+[Tue Nov 13 18:10:47 2012] [error] Global symbol "$posts" requires explicit package name at template "feed/rss.html.ep" line 10, near "        <item>".
+5:         <description>This is an example of an RSS feed</description>
+6:         <link>http://www.someexamplerssdomain.com/main.html</link>
+7:         <lastBuildDate>Mon, 06 Sep 2010 00:01:00 +0000</lastBuildDate>
+8:         <pubDate>Mon, 06 Sep 2009 16:45:00 +0000</pubDate>
+9:         <ttl>1800</ttl>
+10:  % foreach my $post (@$posts) {
+11:         <item>
+12:                 <title><%= $post->{'title'} %></title>
+13:                 <description></description>
+14:                 <link><%= $post->{'slug'} %></link>
+15:                 <guid></guid>
+
+[Tue Nov 13 18:10:47 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Nov 13 18:10:47 2012] [debug] Template "exception.html.ep" not found.
+[Tue Nov 13 18:10:47 2012] [debug] Rendering cached inline template.
+[Tue Nov 13 18:10:47 2012] [debug] Rendering cached inline template.
+[Tue Nov 13 18:10:47 2012] [debug] 500 Internal Server Error (0.014413s, 69.382/s).
+[Tue Nov 13 18:10:47 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:11:12 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:11:12 2012] [debug] GET /feed (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:11:12 2012] [debug] Class "MojoPub::Feed" is not a controller.
+[Tue Nov 13 18:11:12 2012] [debug] Rendering template "feed/rss.html.ep".
+[Tue Nov 13 18:11:12 2012] [error] Global symbol "$post_list" requires explicit package name at template "feed/rss.html.ep" line 10, near "        <item>".
+5:         <description>This is an example of an RSS feed</description>
+6:         <link>http://www.someexamplerssdomain.com/main.html</link>
+7:         <lastBuildDate>Mon, 06 Sep 2010 00:01:00 +0000</lastBuildDate>
+8:         <pubDate>Mon, 06 Sep 2009 16:45:00 +0000</pubDate>
+9:         <ttl>1800</ttl>
+10:  % foreach my $post (@$post_list) {
+11:         <item>
+12:                 <title><%= $post->{'title'} %></title>
+13:                 <description></description>
+14:                 <link><%= $post->{'slug'} %></link>
+15:                 <guid></guid>
+
+[Tue Nov 13 18:11:12 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Nov 13 18:11:12 2012] [debug] Template "exception.html.ep" not found.
+[Tue Nov 13 18:11:12 2012] [debug] Rendering inline template.
+[Tue Nov 13 18:11:12 2012] [debug] Rendering inline template.
+[Tue Nov 13 18:11:12 2012] [debug] 500 Internal Server Error (0.136748s, 7.313/s).
+[Tue Nov 13 18:11:46 2012] [debug] GET /feed (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:11:46 2012] [debug] Class "MojoPub::Feed" is not a controller.
+[Tue Nov 13 18:11:46 2012] [debug] Rendering template "feed/rss.html.ep".
+[Tue Nov 13 18:11:46 2012] [error] Global symbol "$posts" requires explicit package name at template "feed/rss.html.ep" line 10, near "        <item>".
+5:         <description>This is an example of an RSS feed</description>
+6:         <link>http://www.someexamplerssdomain.com/main.html</link>
+7:         <lastBuildDate>Mon, 06 Sep 2010 00:01:00 +0000</lastBuildDate>
+8:         <pubDate>Mon, 06 Sep 2009 16:45:00 +0000</pubDate>
+9:         <ttl>1800</ttl>
+10:  % foreach my $post (@$posts) {
+11:         <item>
+12:                 <title><%= $post->{'title'} %></title>
+13:                 <description></description>
+14:                 <link><%= $post->{'slug'} %></link>
+15:                 <guid></guid>
+
+[Tue Nov 13 18:11:46 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Nov 13 18:11:46 2012] [debug] Template "exception.html.ep" not found.
+[Tue Nov 13 18:11:46 2012] [debug] Rendering cached inline template.
+[Tue Nov 13 18:11:46 2012] [debug] Rendering cached inline template.
+[Tue Nov 13 18:11:46 2012] [debug] 500 Internal Server Error (0.017325s, 57.720/s).
+[Tue Nov 13 18:11:47 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:12:53 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:12:54 2012] [debug] GET /feed (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:12:54 2012] [debug] Routing to controller "MojoPub::Feed" and action "rss".
+[Tue Nov 13 18:12:54 2012] [debug] Rendering template "feed/rss.html.ep".
+[Tue Nov 13 18:12:54 2012] [debug] 200 OK (0.122667s, 8.152/s).
+[Tue Nov 13 18:13:36 2012] [debug] GET /feed (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:13:36 2012] [debug] Routing to controller "MojoPub::Feed" and action "rss".
+[Tue Nov 13 18:13:36 2012] [debug] Rendering cached template "feed/rss.html.ep".
+[Tue Nov 13 18:13:36 2012] [debug] 200 OK (0.001735s, 576.369/s).
+[Tue Nov 13 18:13:37 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:13:43 2012] [debug] GET /feed (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:13:43 2012] [debug] Routing to controller "MojoPub::Feed" and action "rss".
+[Tue Nov 13 18:13:43 2012] [debug] Rendering template "feed/rss.html.ep".
+[Tue Nov 13 18:13:43 2012] [debug] 200 OK (0.117273s, 8.527/s).
+[Tue Nov 13 18:14:18 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:14:28 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:14:28 2012] [debug] GET /feed (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:14:28 2012] [debug] Routing to controller "MojoPub::Feed" and action "rss".
+[Tue Nov 13 18:14:28 2012] [debug] Rendering template "feed/rss.html.ep".
+[Tue Nov 13 18:14:28 2012] [debug] 200 OK (0.114368s, 8.744/s).
+[Tue Nov 13 18:14:29 2012] [debug] GET /feed (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:14:29 2012] [debug] Routing to controller "MojoPub::Feed" and action "rss".
+[Tue Nov 13 18:14:29 2012] [debug] Rendering cached template "feed/rss.html.ep".
+[Tue Nov 13 18:14:29 2012] [debug] 200 OK (0.001938s, 515.996/s).
+[Tue Nov 13 18:14:30 2012] [debug] GET /feed (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:14:30 2012] [debug] Routing to controller "MojoPub::Feed" and action "rss".
+[Tue Nov 13 18:14:30 2012] [debug] Rendering cached template "feed/rss.html.ep".
+[Tue Nov 13 18:14:30 2012] [debug] 200 OK (0.001938s, 515.996/s).
+[Tue Nov 13 18:14:30 2012] [debug] GET /feed (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:14:30 2012] [debug] Routing to controller "MojoPub::Feed" and action "rss".
+[Tue Nov 13 18:14:30 2012] [debug] Rendering cached template "feed/rss.html.ep".
+[Tue Nov 13 18:14:30 2012] [debug] 200 OK (0.001700s, 588.235/s).
+[Tue Nov 13 18:14:31 2012] [debug] GET /feed (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:14:31 2012] [debug] Routing to controller "MojoPub::Feed" and action "rss".
+[Tue Nov 13 18:14:31 2012] [debug] Rendering cached template "feed/rss.html.ep".
+[Tue Nov 13 18:14:31 2012] [debug] 200 OK (0.001635s, 611.621/s).
+[Tue Nov 13 18:14:31 2012] [debug] GET /feed (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:14:31 2012] [debug] Routing to controller "MojoPub::Feed" and action "rss".
+[Tue Nov 13 18:14:31 2012] [debug] Rendering cached template "feed/rss.html.ep".
+[Tue Nov 13 18:14:31 2012] [debug] 200 OK (0.001643s, 608.643/s).
+[Tue Nov 13 18:14:32 2012] [debug] GET /feed (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:14:32 2012] [debug] Routing to controller "MojoPub::Feed" and action "rss".
+[Tue Nov 13 18:14:32 2012] [debug] Rendering cached template "feed/rss.html.ep".
+[Tue Nov 13 18:14:32 2012] [debug] 200 OK (0.001953s, 512.033/s).
+[Tue Nov 13 18:16:04 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:16:23 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:16:47 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:16:49 2012] [debug] GET /feed (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:16:49 2012] [debug] Routing to controller "MojoPub::Feed" and action "rss".
+[Tue Nov 13 18:16:49 2012] [debug] Rendering template "feed/rss.html.ep".
+[Tue Nov 13 18:16:49 2012] [debug] 200 OK (0.120475s, 8.300/s).
+[Tue Nov 13 18:17:49 2012] [debug] GET /feed (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:17:49 2012] [debug] Routing to controller "MojoPub::Feed" and action "rss".
+[Tue Nov 13 18:17:49 2012] [debug] Rendering cached template "feed/rss.html.ep".
+[Tue Nov 13 18:17:49 2012] [debug] 200 OK (0.001583s, 631.712/s).
+[Tue Nov 13 18:17:49 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:17:51 2012] [debug] GET /feed (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:17:51 2012] [debug] Routing to controller "MojoPub::Feed" and action "rss".
+[Tue Nov 13 18:17:51 2012] [debug] Rendering template "feed/rss.html.ep".
+[Tue Nov 13 18:17:51 2012] [debug] 200 OK (0.121603s, 8.223/s).
+[Tue Nov 13 18:17:58 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:17:59 2012] [debug] GET /feed (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:17:59 2012] [debug] Routing to controller "MojoPub::Feed" and action "rss".
+[Tue Nov 13 18:17:59 2012] [debug] Rendering template "feed/rss.html.ep".
+[Tue Nov 13 18:17:59 2012] [error] Can't call method "ymd" without a package or object reference at template "feed/rss.html.ep" line 16, near "                <author><%= $post->{'author'} %></author>".
+11:         <item>
+12:                 <title><%= $post->{'title'} %></title>
+13:                 <description></description>
+14:                 <link><%= $post->{'slug'} %></link>
+15:                 <guid></guid>
+16:                 <pubDate><%= $post->{'published'}->ymd %></pubDate>
+17:                 <author><%= $post->{'author'} %></author>
+18: 
+19:         </item>
+20: % }
+21: </channel>
+
+[Tue Nov 13 18:17:59 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Nov 13 18:17:59 2012] [debug] Template "exception.html.ep" not found.
+[Tue Nov 13 18:17:59 2012] [debug] Rendering inline template.
+[Tue Nov 13 18:17:59 2012] [debug] Rendering inline template.
+[Tue Nov 13 18:17:59 2012] [debug] 500 Internal Server Error (0.151027s, 6.621/s).
+[Tue Nov 13 18:18:06 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:18:43 2012] [debug] GET /feed (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:18:43 2012] [debug] Routing to controller "MojoPub::Feed" and action "rss".
+[Tue Nov 13 18:18:43 2012] [debug] Rendering template "feed/rss.html.ep".
+[Tue Nov 13 18:18:43 2012] [debug] 200 OK (0.114508s, 8.733/s).
+[Tue Nov 13 18:18:44 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:19:57 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:19:57 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Tue Nov 13 18:19:57 2012] [debug] 302 Found (0.098283s, 10.175/s).
+[Tue Nov 13 18:19:57 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:19:57 2012] [debug] Routing to controller "MojoPub::Render" and action "bloghome".
+[Tue Nov 13 18:19:57 2012] [debug] Rendering template "example/welcome.html.ep".
+[Tue Nov 13 18:19:57 2012] [debug] Rendering template "layouts/default.html.ep".
+[Tue Nov 13 18:19:57 2012] [debug] 200 OK (0.021436s, 46.650/s).
+[Tue Nov 13 18:19:59 2012] [debug] GET /login (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:19:59 2012] [debug] Routing to controller "MojoPub::Auth" and action "login".
+[Tue Nov 13 18:19:59 2012] [debug] Rendering template "auth/login.html.ep".
+[Tue Nov 13 18:19:59 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Tue Nov 13 18:19:59 2012] [debug] 200 OK (0.009268s, 107.898/s).
+[Tue Nov 13 18:20:04 2012] [debug] POST /login (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:20:04 2012] [debug] Routing to a callback.
+[Tue Nov 13 18:20:04 2012] [debug] 302 Found (0.001482s, 674.764/s).
+[Tue Nov 13 18:20:04 2012] [debug] GET /admin (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:20:04 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Tue Nov 13 18:20:04 2012] [debug] Rendering template "admin/admin.html.ep".
+[Tue Nov 13 18:20:04 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Tue Nov 13 18:20:04 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Tue Nov 13 18:20:04 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Tue Nov 13 18:20:04 2012] [debug] 200 OK (0.015616s, 64.037/s).
+[Tue Nov 13 18:20:08 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:20:08 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Tue Nov 13 18:20:08 2012] [debug] Rendering template "admin/addpost.html.ep".
+[Tue Nov 13 18:20:08 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Tue Nov 13 18:20:08 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Tue Nov 13 18:20:08 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Tue Nov 13 18:20:08 2012] [debug] 200 OK (0.015669s, 63.820/s).
+[Tue Nov 13 18:25:42 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:26:17 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:31:57 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:32:22 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:32:44 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:32:53 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:32:53 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Tue Nov 13 18:32:53 2012] [debug] Rendering template "admin/addpost.html.ep".
+[Tue Nov 13 18:32:53 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Tue Nov 13 18:32:53 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Tue Nov 13 18:32:53 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Tue Nov 13 18:32:53 2012] [debug] 200 OK (0.120175s, 8.321/s).
+[Tue Nov 13 18:33:02 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:33:02 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Nov 13 18:33:02 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Nov 13 18:33:02 2012] [debug] Rendering inline template.
+[Tue Nov 13 18:33:02 2012] [debug] Rendering inline template.
+[Tue Nov 13 18:33:02 2012] [debug] 404 Not Found (0.022269s, 44.905/s).
+[Tue Nov 13 18:33:17 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:33:18 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:33:18 2012] [error] syntax error at /Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/script/../lib/MojoPub/Upload.pm line 28, near "hook after_build_tx"
+syntax error at /Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/script/../lib/MojoPub/Upload.pm line 32, near "}"
+Compilation failed in require at (eval 251) line 1.
+
+[Tue Nov 13 18:33:18 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Nov 13 18:33:18 2012] [debug] Template "exception.html.ep" not found.
+[Tue Nov 13 18:33:18 2012] [debug] Rendering inline template.
+[Tue Nov 13 18:33:18 2012] [debug] Rendering inline template.
+[Tue Nov 13 18:33:18 2012] [debug] 500 Internal Server Error (0.138993s, 7.195/s).
+[Tue Nov 13 18:33:58 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:33:59 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:33:59 2012] [debug] Routing to controller "MojoPub::Upload" and action "testup".
+[Tue Nov 13 18:33:59 2012] [debug] 200 OK (0.100329s, 9.967/s).
+[Tue Nov 13 18:36:33 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:36:50 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:36:50 2012] [debug] Routing to controller "MojoPub::Upload" and action "testup".
+[Tue Nov 13 18:36:50 2012] [debug] 200 OK (0.107296s, 9.320/s).
+[Tue Nov 13 18:44:23 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:44:53 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:45:09 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:45:09 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Tue Nov 13 18:45:09 2012] [debug] Rendering template "admin/admin.html.ep".
+[Tue Nov 13 18:45:09 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Tue Nov 13 18:45:09 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Tue Nov 13 18:45:09 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Tue Nov 13 18:45:09 2012] [debug] 200 OK (0.121786s, 8.211/s).
+[Tue Nov 13 18:45:10 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:45:10 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Tue Nov 13 18:45:10 2012] [debug] Rendering cached template "admin/admin.html.ep".
+[Tue Nov 13 18:45:10 2012] [debug] Rendering cached template "layouts/admin.html.ep".
+[Tue Nov 13 18:45:10 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Tue Nov 13 18:45:10 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Tue Nov 13 18:45:10 2012] [debug] 200 OK (0.001876s, 533.049/s).
+[Tue Nov 13 18:45:13 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:45:13 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Tue Nov 13 18:45:13 2012] [debug] Rendering template "admin/addpost.html.ep".
+[Tue Nov 13 18:45:13 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Tue Nov 13 18:45:13 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Tue Nov 13 18:45:13 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Tue Nov 13 18:45:13 2012] [debug] 200 OK (0.015189s, 65.837/s).
+[Tue Nov 13 18:45:14 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:45:14 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Tue Nov 13 18:45:14 2012] [debug] Rendering cached template "admin/addpost.html.ep".
+[Tue Nov 13 18:45:14 2012] [debug] Rendering cached template "layouts/admin-edit.html.ep".
+[Tue Nov 13 18:45:14 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Tue Nov 13 18:45:14 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Tue Nov 13 18:45:14 2012] [debug] 200 OK (0.002131s, 469.263/s).
+[Tue Nov 13 18:45:25 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:45:25 2012] [debug] Routing to controller "MojoPub::Upload" and action "media".
+[Tue Nov 13 18:45:25 2012] [error] Can't move file "/var/folders/7j/1qqk5hy53xdfrc7h4gr40gmmy46yy8/T/mojo.tmp" to "/usr/local/bin/../public/uploads/2012/11/": No such file or directory at /usr/local/lib/perl5/site_perl/5.16.1/Mojo/Upload.pm line 14.
+
+[Tue Nov 13 18:45:25 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Nov 13 18:45:25 2012] [debug] Template "exception.html.ep" not found.
+[Tue Nov 13 18:45:25 2012] [debug] Rendering inline template.
+[Tue Nov 13 18:45:25 2012] [debug] Rendering inline template.
+[Tue Nov 13 18:45:25 2012] [debug] 500 Internal Server Error (0.035953s, 27.814/s).
+[Tue Nov 13 18:50:58 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:51:04 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:51:05 2012] [debug] Routing to controller "MojoPub::Upload" and action "media".
+[Tue Nov 13 18:51:05 2012] [debug] 200 OK (0.098031s, 10.201/s).
+[Tue Nov 13 18:52:21 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:52:23 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:52:23 2012] [debug] Routing to controller "MojoPub::Upload" and action "media".
+[Tue Nov 13 18:52:23 2012] [error] Couldn't create upload folder - please check permissions & try again
+[Tue Nov 13 18:52:23 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Nov 13 18:52:23 2012] [debug] Template "exception.html.ep" not found.
+[Tue Nov 13 18:52:23 2012] [debug] Rendering inline template.
+[Tue Nov 13 18:52:23 2012] [debug] Rendering inline template.
+[Tue Nov 13 18:52:23 2012] [debug] 500 Internal Server Error (0.131370s, 7.612/s).
+[Tue Nov 13 18:53:19 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:53:23 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:53:23 2012] [debug] Routing to controller "MojoPub::Upload" and action "media".
+[Tue Nov 13 18:53:23 2012] [error] Couldn't create upload folder - please check permissions & try again
+[Tue Nov 13 18:53:23 2012] [debug] Template "exception.development.html.ep" not found.
+[Tue Nov 13 18:53:23 2012] [debug] Template "exception.html.ep" not found.
+[Tue Nov 13 18:53:23 2012] [debug] Rendering inline template.
+[Tue Nov 13 18:53:23 2012] [debug] Rendering inline template.
+[Tue Nov 13 18:53:23 2012] [debug] 500 Internal Server Error (0.125154s, 7.990/s).
+[Tue Nov 13 18:56:14 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 18:56:20 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 18:56:20 2012] [debug] Routing to controller "MojoPub::Upload" and action "media".
+[Tue Nov 13 18:56:20 2012] [debug] 200 OK (0.106622s, 9.379/s).
+[Tue Nov 13 21:08:37 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 21:08:40 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 21:08:40 2012] [debug] Routing to application "MojoPub::Upload".
+[Tue Nov 13 21:08:40 2012] [debug] Template "not_found.development.html.ep" not found.
+[Tue Nov 13 21:08:40 2012] [debug] Template "not_found.html.ep" not found.
+[Tue Nov 13 21:08:40 2012] [debug] Rendering inline template.
+[Tue Nov 13 21:08:40 2012] [debug] Rendering inline template.
+[Tue Nov 13 21:08:40 2012] [debug] 404 Not Found (0.155269s, 6.440/s).
+[Tue Nov 13 21:08:46 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 21:08:48 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 21:08:48 2012] [debug] Routing to controller "MojoPub::Upload" and action "media".
+[Tue Nov 13 21:08:48 2012] [debug] 302 Found (0.097787s, 10.226/s).
+[Tue Nov 13 21:08:48 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 21:08:48 2012] [debug] Routing to controller "MojoPub::Render" and action "bloghome".
+[Tue Nov 13 21:08:48 2012] [debug] Rendering template "example/welcome.html.ep".
+[Tue Nov 13 21:08:48 2012] [debug] Rendering template "layouts/default.html.ep".
+[Tue Nov 13 21:08:48 2012] [debug] 200 OK (0.034634s, 28.873/s).
+[Tue Nov 13 21:08:51 2012] [debug] GET /login (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 21:08:51 2012] [debug] Routing to controller "MojoPub::Auth" and action "login".
+[Tue Nov 13 21:08:51 2012] [debug] Rendering template "auth/login.html.ep".
+[Tue Nov 13 21:08:51 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Tue Nov 13 21:08:51 2012] [debug] 200 OK (0.011393s, 87.773/s).
+[Tue Nov 13 21:08:55 2012] [debug] POST /login (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 21:08:55 2012] [debug] Routing to a callback.
+[Tue Nov 13 21:08:55 2012] [debug] 302 Found (0.001755s, 569.801/s).
+[Tue Nov 13 21:08:55 2012] [debug] GET /admin (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Tue Nov 13 21:08:55 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Tue Nov 13 21:08:55 2012] [debug] Rendering template "admin/admin.html.ep".
+[Tue Nov 13 21:08:55 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Tue Nov 13 21:08:55 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Tue Nov 13 21:08:55 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Tue Nov 13 21:08:55 2012] [debug] 200 OK (0.016048s, 62.313/s).
+[Tue Nov 13 21:09:14 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Tue Nov 13 21:09:29 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 07:27:28 2012] [debug] GET /admin (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 07:27:29 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Wed Nov 14 07:27:29 2012] [debug] 302 Found (0.364303s, 2.745/s).
+[Wed Nov 14 07:27:29 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 07:27:29 2012] [debug] Routing to controller "MojoPub::Render" and action "bloghome".
+[Wed Nov 14 07:27:29 2012] [debug] Rendering template "example/welcome.html.ep".
+[Wed Nov 14 07:27:29 2012] [debug] Rendering template "layouts/default.html.ep".
+[Wed Nov 14 07:27:29 2012] [debug] 200 OK (0.119383s, 8.376/s).
+[Wed Nov 14 07:27:34 2012] [debug] GET /login (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 07:27:34 2012] [debug] Routing to controller "MojoPub::Auth" and action "login".
+[Wed Nov 14 07:27:34 2012] [debug] Rendering template "auth/login.html.ep".
+[Wed Nov 14 07:27:34 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Wed Nov 14 07:27:34 2012] [debug] 200 OK (0.011707s, 85.419/s).
+[Wed Nov 14 07:27:41 2012] [debug] POST /login (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 07:27:41 2012] [debug] Routing to a callback.
+[Wed Nov 14 07:27:41 2012] [debug] Rendering template "auth/login.html.ep".
+[Wed Nov 14 07:27:41 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Wed Nov 14 07:27:41 2012] [error] Global symbol "$user" requires explicit package name at template "layouts/admin.html.ep" line 11, near "			%= include 'parts/admin-top'".
+Global symbol "$user" requires explicit package name at template "layouts/admin.html.ep" line 18, near "			%= include 'parts/admin-side'".
+6: </head>
+7: <body>
+8: <div class="navbar">
+9: 	<div class="navbar-inner">
+10: 		<a class="brand" href="/"><%= $config->{brand} %> admin</a>
+11: 		% if ($user) {
+12: 			%= include 'parts/admin-top'
+13: 		% }
+14: 	</div>
+15: </div>
+16: <div class="container-fluid">
+
+[Wed Nov 14 07:27:41 2012] [debug] Template "exception.development.html.ep" not found.
+[Wed Nov 14 07:27:41 2012] [debug] Template "exception.html.ep" not found.
+[Wed Nov 14 07:27:41 2012] [debug] Rendering inline template.
+[Wed Nov 14 07:27:41 2012] [debug] Rendering inline template.
+[Wed Nov 14 07:27:41 2012] [debug] 500 Internal Server Error (0.045061s, 22.192/s).
+[Wed Nov 14 07:27:46 2012] [debug] GET /login (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 07:27:46 2012] [debug] Routing to controller "MojoPub::Auth" and action "login".
+[Wed Nov 14 07:27:46 2012] [debug] Rendering cached template "auth/login.html.ep".
+[Wed Nov 14 07:27:46 2012] [debug] Rendering cached template "layouts/admin.html.ep".
+[Wed Nov 14 07:27:46 2012] [debug] 200 OK (0.002644s, 378.215/s).
+[Wed Nov 14 07:27:50 2012] [debug] POST /login (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 07:27:50 2012] [debug] Routing to a callback.
+[Wed Nov 14 07:27:50 2012] [debug] 302 Found (0.001539s, 649.773/s).
+[Wed Nov 14 07:27:50 2012] [debug] GET /admin (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 07:27:50 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Wed Nov 14 07:27:50 2012] [debug] Rendering template "admin/admin.html.ep".
+[Wed Nov 14 07:27:50 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Wed Nov 14 07:27:50 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Wed Nov 14 07:27:50 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Wed Nov 14 07:27:50 2012] [debug] 200 OK (0.013397s, 74.644/s).
+[Wed Nov 14 07:28:28 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 07:28:28 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Wed Nov 14 07:28:28 2012] [debug] Rendering template "admin/addpost.html.ep".
+[Wed Nov 14 07:28:28 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Wed Nov 14 07:28:28 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Wed Nov 14 07:28:28 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Wed Nov 14 07:28:28 2012] [debug] 200 OK (0.015597s, 64.115/s).
+[Wed Nov 14 07:28:37 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 07:28:37 2012] [error] Can't call method "rel_dir" on an undefined value at /Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/script/../lib/MojoPub/Upload.pm line 19.
+Compilation failed in require at (eval 1197) line 1.
+
+[Wed Nov 14 07:28:37 2012] [debug] Template "exception.development.html.ep" not found.
+[Wed Nov 14 07:28:37 2012] [debug] Template "exception.html.ep" not found.
+[Wed Nov 14 07:28:37 2012] [debug] Rendering inline template.
+[Wed Nov 14 07:28:37 2012] [debug] Rendering inline template.
+[Wed Nov 14 07:28:37 2012] [debug] 500 Internal Server Error (0.040697s, 24.572/s).
+[Wed Nov 14 07:29:02 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 07:29:06 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 07:29:06 2012] [debug] Routing to controller "MojoPub::Upload" and action "media".
+[Wed Nov 14 07:29:06 2012] [debug] 200 OK (0.098640s, 10.138/s).
+[Wed Nov 14 07:32:21 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 07:32:23 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 07:32:24 2012] [error] Bareword "MOJO_HOME" not allowed while "strict subs" in use at /Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/script/../lib/MojoPub/Upload.pm line 18.
+Compilation failed in require at (eval 251) line 1.
+
+[Wed Nov 14 07:32:24 2012] [debug] Template "exception.development.html.ep" not found.
+[Wed Nov 14 07:32:24 2012] [debug] Template "exception.html.ep" not found.
+[Wed Nov 14 07:32:24 2012] [debug] Rendering inline template.
+[Wed Nov 14 07:32:24 2012] [debug] Rendering inline template.
+[Wed Nov 14 07:32:24 2012] [debug] 500 Internal Server Error (0.126632s, 7.897/s).
+[Wed Nov 14 07:33:08 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 07:33:14 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 07:33:14 2012] [error] Died at /Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/script/../lib/MojoPub/Upload.pm line 20.
+Compilation failed in require at (eval 251) line 1.
+
+[Wed Nov 14 07:33:14 2012] [debug] Template "exception.development.html.ep" not found.
+[Wed Nov 14 07:33:14 2012] [debug] Template "exception.html.ep" not found.
+[Wed Nov 14 07:33:14 2012] [debug] Rendering inline template.
+[Wed Nov 14 07:33:14 2012] [debug] Rendering inline template.
+[Wed Nov 14 07:33:14 2012] [debug] 500 Internal Server Error (0.133066s, 7.515/s).
+[Wed Nov 14 07:33:30 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 07:33:33 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 07:33:33 2012] [error] Died at /Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/script/../lib/MojoPub/Upload.pm line 20.
+Compilation failed in require at (eval 251) line 1.
+
+[Wed Nov 14 07:33:33 2012] [debug] Template "exception.development.html.ep" not found.
+[Wed Nov 14 07:33:33 2012] [debug] Template "exception.html.ep" not found.
+[Wed Nov 14 07:33:33 2012] [debug] Rendering inline template.
+[Wed Nov 14 07:33:33 2012] [debug] Rendering inline template.
+[Wed Nov 14 07:33:33 2012] [debug] 500 Internal Server Error (0.128930s, 7.756/s).
+[Wed Nov 14 07:33:51 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 07:33:52 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 07:33:52 2012] [error] Died at /Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/script/../lib/MojoPub/Upload.pm line 20.
+Compilation failed in require at (eval 251) line 1.
+
+[Wed Nov 14 07:33:52 2012] [debug] Template "exception.development.html.ep" not found.
+[Wed Nov 14 07:33:52 2012] [debug] Template "exception.html.ep" not found.
+[Wed Nov 14 07:33:52 2012] [debug] Rendering inline template.
+[Wed Nov 14 07:33:52 2012] [debug] Rendering inline template.
+[Wed Nov 14 07:33:52 2012] [debug] 500 Internal Server Error (0.147242s, 6.792/s).
+[Wed Nov 14 07:34:31 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 07:34:39 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 07:34:39 2012] [error] Died at /Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/script/../lib/MojoPub/Upload.pm line 20.
+Compilation failed in require at (eval 251) line 1.
+
+[Wed Nov 14 07:34:39 2012] [debug] Template "exception.development.html.ep" not found.
+[Wed Nov 14 07:34:39 2012] [debug] Template "exception.html.ep" not found.
+[Wed Nov 14 07:34:39 2012] [debug] Rendering inline template.
+[Wed Nov 14 07:34:39 2012] [debug] Rendering inline template.
+[Wed Nov 14 07:34:39 2012] [debug] 500 Internal Server Error (0.130309s, 7.674/s).
+[Wed Nov 14 07:35:11 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 07:35:13 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 07:35:14 2012] [error] Died at /Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/script/../lib/MojoPub/Upload.pm line 20.
+Compilation failed in require at (eval 251) line 1.
+
+[Wed Nov 14 07:35:14 2012] [debug] Template "exception.development.html.ep" not found.
+[Wed Nov 14 07:35:14 2012] [debug] Template "exception.html.ep" not found.
+[Wed Nov 14 07:35:14 2012] [debug] Rendering inline template.
+[Wed Nov 14 07:35:14 2012] [debug] Rendering inline template.
+[Wed Nov 14 07:35:14 2012] [debug] 500 Internal Server Error (0.131796s, 7.587/s).
+[Wed Nov 14 07:35:48 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 07:35:50 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 07:38:19 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 07:38:19 2012] [info] Listening at "http://*:3000".
+[Wed Nov 14 07:38:21 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 07:38:21 2012] [error] Died at /Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/script/../lib/MojoPub/Upload.pm line 20.
+Compilation failed in require at (eval 251) line 1.
+
+[Wed Nov 14 07:38:21 2012] [debug] Template "exception.development.html.ep" not found.
+[Wed Nov 14 07:38:21 2012] [debug] Template "exception.html.ep" not found.
+[Wed Nov 14 07:38:21 2012] [debug] Rendering inline template.
+[Wed Nov 14 07:38:21 2012] [debug] Rendering inline template.
+[Wed Nov 14 07:38:21 2012] [debug] 500 Internal Server Error (0.156003s, 6.410/s).
+[Wed Nov 14 07:44:25 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 07:44:29 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 07:44:29 2012] [error] Died at /Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/script/../lib/MojoPub/Upload.pm line 25.
+Compilation failed in require at (eval 251) line 1.
+
+[Wed Nov 14 07:44:29 2012] [debug] Template "exception.development.html.ep" not found.
+[Wed Nov 14 07:44:29 2012] [debug] Template "exception.html.ep" not found.
+[Wed Nov 14 07:44:29 2012] [debug] Rendering inline template.
+[Wed Nov 14 07:44:29 2012] [debug] Rendering inline template.
+[Wed Nov 14 07:44:29 2012] [debug] 500 Internal Server Error (0.135430s, 7.384/s).
+[Wed Nov 14 07:50:35 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 07:50:53 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 07:50:53 2012] [debug] Routing to controller "MojoPub::Upload" and action "media".
+[Wed Nov 14 07:50:53 2012] [error] Couldn't create upload folder - please check permissions & try again
+[Wed Nov 14 07:50:53 2012] [debug] Template "exception.development.html.ep" not found.
+[Wed Nov 14 07:50:53 2012] [debug] Template "exception.html.ep" not found.
+[Wed Nov 14 07:50:53 2012] [debug] Rendering inline template.
+[Wed Nov 14 07:50:53 2012] [debug] Rendering inline template.
+[Wed Nov 14 07:50:53 2012] [debug] 500 Internal Server Error (0.132307s, 7.558/s).
+[Wed Nov 14 07:52:11 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 07:52:14 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 07:52:14 2012] [debug] Routing to controller "MojoPub::Upload" and action "media".
+[Wed Nov 14 07:52:14 2012] [error] Couldn't create upload folder - please check permissions & try again
+[Wed Nov 14 07:52:14 2012] [debug] Template "exception.development.html.ep" not found.
+[Wed Nov 14 07:52:14 2012] [debug] Template "exception.html.ep" not found.
+[Wed Nov 14 07:52:14 2012] [debug] Rendering inline template.
+[Wed Nov 14 07:52:14 2012] [debug] Rendering inline template.
+[Wed Nov 14 07:52:14 2012] [debug] 500 Internal Server Error (0.133173s, 7.509/s).
+[Wed Nov 14 07:52:26 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 07:52:27 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 07:52:27 2012] [debug] Routing to controller "MojoPub::Upload" and action "media".
+[Wed Nov 14 07:52:27 2012] [error] Couldn't create upload folder - please check permissions & try again
+[Wed Nov 14 07:52:27 2012] [debug] Template "exception.development.html.ep" not found.
+[Wed Nov 14 07:52:27 2012] [debug] Template "exception.html.ep" not found.
+[Wed Nov 14 07:52:27 2012] [debug] Rendering inline template.
+[Wed Nov 14 07:52:27 2012] [debug] Rendering inline template.
+[Wed Nov 14 07:52:27 2012] [debug] 500 Internal Server Error (0.128830s, 7.762/s).
+[Wed Nov 14 07:52:44 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 07:52:45 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 07:52:45 2012] [debug] Routing to controller "MojoPub::Upload" and action "media".
+[Wed Nov 14 07:52:45 2012] [error] Couldn't create upload folder - please check permissions & try again
+[Wed Nov 14 07:52:45 2012] [debug] Template "exception.development.html.ep" not found.
+[Wed Nov 14 07:52:45 2012] [debug] Template "exception.html.ep" not found.
+[Wed Nov 14 07:52:45 2012] [debug] Rendering inline template.
+[Wed Nov 14 07:52:45 2012] [debug] Rendering inline template.
+[Wed Nov 14 07:52:45 2012] [debug] 500 Internal Server Error (0.129239s, 7.738/s).
+[Wed Nov 14 07:53:44 2012] [debug] GET /perldoc/File/Path (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 07:53:44 2012] [debug] Routing to a callback.
+[Wed Nov 14 07:53:44 2012] [debug] Rendering inline template.
+[Wed Nov 14 07:53:44 2012] [debug] Rendering inline template.
+[Wed Nov 14 07:53:44 2012] [debug] 200 OK (0.114962s, 8.699/s).
+[Wed Nov 14 08:00:43 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 08:00:48 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 08:00:48 2012] [debug] Routing to controller "MojoPub::Upload" and action "media".
+[Wed Nov 14 08:00:48 2012] [debug] 200 OK (0.099080s, 10.093/s).
+[Wed Nov 14 08:03:37 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 08:03:37 2012] [debug] Routing to controller "MojoPub::Upload" and action "media".
+[Wed Nov 14 08:03:37 2012] [debug] 200 OK (0.001788s, 559.284/s).
+[Wed Nov 14 08:04:48 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 08:04:50 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 08:04:50 2012] [debug] Routing to controller "MojoPub::Upload" and action "media".
+[Wed Nov 14 08:04:50 2012] [debug] 200 OK (0.098833s, 10.118/s).
+[Wed Nov 14 08:05:19 2012] [debug] GET /perldoc/Mojo/Upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 08:05:19 2012] [debug] Routing to a callback.
+[Wed Nov 14 08:05:19 2012] [debug] Rendering inline template.
+[Wed Nov 14 08:05:19 2012] [debug] Rendering inline template.
+[Wed Nov 14 08:05:19 2012] [debug] 200 OK (0.066457s, 15.047/s).
+[Wed Nov 14 08:05:59 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 08:06:02 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 08:06:02 2012] [debug] Routing to controller "MojoPub::Upload" and action "media".
+[Wed Nov 14 08:06:02 2012] [debug] 200 OK (0.102709s, 9.736/s).
+[Wed Nov 14 08:10:44 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 08:10:52 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 08:10:52 2012] [debug] Routing to controller "MojoPub::Upload" and action "media".
+[Wed Nov 14 08:10:52 2012] [debug] 200 OK (0.098918s, 10.109/s).
+[Wed Nov 14 08:12:28 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 08:12:31 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 08:12:31 2012] [debug] Routing to controller "MojoPub::Upload" and action "media".
+[Wed Nov 14 08:12:31 2012] [debug] 200 OK (0.099858s, 10.014/s).
+[Wed Nov 14 08:13:34 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 08:13:34 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Wed Nov 14 08:13:34 2012] [debug] Rendering template "admin/admin.html.ep".
+[Wed Nov 14 08:13:34 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Wed Nov 14 08:13:34 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Wed Nov 14 08:13:34 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Wed Nov 14 08:13:34 2012] [debug] 200 OK (0.020769s, 48.149/s).
+[Wed Nov 14 08:13:36 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 08:13:36 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Wed Nov 14 08:13:36 2012] [debug] Rendering template "admin/addpost.html.ep".
+[Wed Nov 14 08:13:36 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Wed Nov 14 08:13:36 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Wed Nov 14 08:13:36 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Wed Nov 14 08:13:36 2012] [debug] 200 OK (0.017453s, 57.297/s).
+[Wed Nov 14 08:13:45 2012] [debug] GET /admin/lists/image_list.js (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 08:13:45 2012] [debug] Template "not_found.development.html.ep" not found.
+[Wed Nov 14 08:13:45 2012] [debug] Template "not_found.html.ep" not found.
+[Wed Nov 14 08:13:45 2012] [debug] Rendering inline template.
+[Wed Nov 14 08:13:45 2012] [debug] Rendering inline template.
+[Wed Nov 14 08:13:45 2012] [debug] 404 Not Found (0.024795s, 40.331/s).
+[Wed Nov 14 08:15:09 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 08:15:21 2012] [debug] POST /admin/upload (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 08:15:21 2012] [debug] Routing to controller "MojoPub::Upload" and action "media".
+[Wed Nov 14 08:15:21 2012] [debug] 200 OK (0.104257s, 9.592/s).
+[Wed Nov 14 08:17:30 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 08:18:34 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 08:18:53 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 09:12:53 2012] [debug] GET /admin (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 09:12:53 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Wed Nov 14 09:12:53 2012] [debug] Rendering template "admin/admin.html.ep".
+[Wed Nov 14 09:12:53 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Wed Nov 14 09:12:53 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Wed Nov 14 09:12:53 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Wed Nov 14 09:12:53 2012] [debug] 200 OK (0.148254s, 6.745/s).
+[Wed Nov 14 09:12:55 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 09:12:55 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Wed Nov 14 09:12:55 2012] [debug] Rendering template "admin/addpost.html.ep".
+[Wed Nov 14 09:12:55 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Wed Nov 14 09:12:55 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Wed Nov 14 09:12:55 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Wed Nov 14 09:12:55 2012] [debug] 200 OK (0.016206s, 61.706/s).
+[Wed Nov 14 09:19:15 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 09:20:37 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 09:20:38 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 09:20:41 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 09:20:42 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Wed Nov 14 09:20:42 2012] [debug] Rendering template "admin/addpost.html.ep".
+[Wed Nov 14 09:20:42 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Wed Nov 14 09:20:42 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Wed Nov 14 09:20:42 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Wed Nov 14 09:20:42 2012] [debug] 200 OK (0.145150s, 6.889/s).
+[Wed Nov 14 09:22:13 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 09:22:21 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 09:24:53 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 09:24:53 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Wed Nov 14 09:24:53 2012] [debug] Rendering template "admin/admin.html.ep".
+[Wed Nov 14 09:24:53 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Wed Nov 14 09:24:53 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Wed Nov 14 09:24:53 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Wed Nov 14 09:24:53 2012] [debug] 200 OK (0.137607s, 7.267/s).
+[Wed Nov 14 09:24:55 2012] [debug] GET /admin/settings (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 09:24:55 2012] [debug] Routing to controller "MojoPub::Admin" and action "settings".
+[Wed Nov 14 09:24:55 2012] [debug] Rendering template "admin/settings.html.ep".
+[Wed Nov 14 09:24:55 2012] [debug] Rendering cached template "layouts/admin.html.ep".
+[Wed Nov 14 09:24:55 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Wed Nov 14 09:24:55 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Wed Nov 14 09:24:55 2012] [debug] 200 OK (0.008594s, 116.360/s).
+[Wed Nov 14 09:24:56 2012] [debug] GET /admin/theme (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 09:24:56 2012] [debug] Routing to controller "MojoPub::Admin" and action "theme".
+[Wed Nov 14 09:24:56 2012] [debug] Rendering template "admin/theme.html.ep".
+[Wed Nov 14 09:24:56 2012] [debug] Rendering cached template "layouts/admin.html.ep".
+[Wed Nov 14 09:24:56 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Wed Nov 14 09:24:56 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Wed Nov 14 09:24:56 2012] [debug] 200 OK (0.008376s, 119.389/s).
+[Wed Nov 14 09:25:00 2012] [debug] GET /admin/ (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 09:25:00 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Wed Nov 14 09:25:00 2012] [debug] Rendering cached template "admin/admin.html.ep".
+[Wed Nov 14 09:25:00 2012] [debug] Rendering cached template "layouts/admin.html.ep".
+[Wed Nov 14 09:25:00 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Wed Nov 14 09:25:00 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Wed Nov 14 09:25:00 2012] [debug] 200 OK (0.001702s, 587.544/s).
+[Wed Nov 14 09:26:37 2012] [debug] GET /admin/add (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 09:26:37 2012] [debug] Routing to controller "MojoPub::Admin" and action "addpost".
+[Wed Nov 14 09:26:37 2012] [debug] Rendering template "admin/addpost.html.ep".
+[Wed Nov 14 09:26:37 2012] [debug] Rendering template "layouts/admin-edit.html.ep".
+[Wed Nov 14 09:26:37 2012] [debug] Rendering cached template "parts/admin-top.html.ep".
+[Wed Nov 14 09:26:37 2012] [debug] Rendering cached template "parts/admin-side.html.ep".
+[Wed Nov 14 09:26:37 2012] [debug] 200 OK (0.023712s, 42.173/s).
+[Wed Nov 14 09:33:36 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 15:22:11 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 17:59:27 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 17:59:27 2012] [debug] Routing to controller "MojoPub::Render" and action "bloghome".
+[Wed Nov 14 17:59:27 2012] [debug] Rendering template "example/welcome.html.ep".
+[Wed Nov 14 17:59:27 2012] [debug] Rendering template "layouts/default.html.ep".
+[Wed Nov 14 17:59:27 2012] [debug] 200 OK (0.166746s, 5.997/s).
+[Wed Nov 14 17:59:28 2012] [debug] GET /login (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 17:59:28 2012] [debug] Routing to controller "MojoPub::Auth" and action "login".
+[Wed Nov 14 17:59:28 2012] [debug] Rendering template "auth/login.html.ep".
+[Wed Nov 14 17:59:28 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Wed Nov 14 17:59:28 2012] [debug] 200 OK (0.013526s, 73.932/s).
+[Wed Nov 14 17:59:38 2012] [debug] POST /login (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 17:59:38 2012] [debug] Routing to a callback.
+[Wed Nov 14 17:59:38 2012] [debug] 302 Found (0.001353s, 739.098/s).
+[Wed Nov 14 17:59:38 2012] [debug] GET /admin (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:18.0) Gecko/18.0 Firefox/18.0).
+[Wed Nov 14 17:59:38 2012] [debug] Routing to controller "MojoPub::Admin" and action "admin".
+[Wed Nov 14 17:59:38 2012] [debug] Rendering template "admin/admin.html.ep".
+[Wed Nov 14 17:59:38 2012] [debug] Rendering template "layouts/admin.html.ep".
+[Wed Nov 14 17:59:38 2012] [debug] Rendering template "parts/admin-top.html.ep".
+[Wed Nov 14 17:59:38 2012] [debug] Rendering template "parts/admin-side.html.ep".
+[Wed Nov 14 17:59:38 2012] [debug] 200 OK (0.015862s, 63.044/s).
+[Wed Nov 14 18:01:38 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 18:03:22 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".
+[Wed Nov 14 18:05:41 2012] [debug] Reading config file "/Users/rob.hammond/Sites/MOJO-APPS/MOJO_PUB/mojo_pub.conf".

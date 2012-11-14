@@ -4,6 +4,7 @@ use Mojo::Base 'Mojolicious::Controller';
 use MongoDB;
 use MongoDB::OID;
 use Data::Dumper;
+use DateTime;
 
 sub blogpost {
 	my $self = shift;
@@ -25,14 +26,15 @@ sub blogpost {
 
 		$self->render( template => 'example/blogpost',
 			meta => {
-				title 	=> $doc->{'meta'}->{'title'},
-				content  	=> $doc->{'meta'}->{'content'},
-				author  => $doc->{'meta'}->{'author'},
-				ts    	=> $doc->{'meta'}->{'ts'},
-				tags	=> $doc->{'meta'}->{'tags'},
+				title 	  => $doc->{'head'}->{'title'},
+				content   => $doc->{'body'}->{'content'},
+				author    => $doc->{'meta'}->{'author'},
+				published => DateTime->from_epoch( epoch => $doc->{'meta'}->{'published'} ),
+				tags	  => $doc->{'meta'}->{'tags'},
 			}
 		);
 	} else {
+		# debug
 		$self->render_text(Dumper($post));
 	}
 }
@@ -43,7 +45,8 @@ sub bloghome {
 	my $db    = $self->db;
 	my $posts = $db->posts;
 
-	my $post = $posts->find({'meta.status' => 'live'}); # find all records in the posts collection
+	# find all published posts, reverse sorted by publish date
+	my $post = $posts->find({'meta.status' => 'live'})->sort({'meta.published' => -1});
 	
 	# check how many matches we get for the query
 	my $num = $post->count;
@@ -53,10 +56,10 @@ sub bloghome {
 
 	while (my $doc  = $post->next) {
 		push(@post_list, { 
-			title   => $doc->{'meta'}->{'title'},
-			author  => $doc->{'meta'}->{'author'},
-			ts    	=> $doc->{'meta'}->{'ts'},
-			slug    => $doc->{'meta'}->{'slug'},
+			title   	=> $doc->{'head'}->{'title'},
+			author  	=> $doc->{'meta'}->{'author'},
+			published	=> DateTime->from_epoch( epoch => $doc->{'meta'}->{'published'} ),
+			slug    	=> $doc->{'meta'}->{'slug'},
 		});
 	}
 	
@@ -66,6 +69,5 @@ sub bloghome {
 			num => $num,
 		);
 }
-
 
 1;

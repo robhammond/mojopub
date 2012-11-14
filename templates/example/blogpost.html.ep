@@ -1,8 +1,8 @@
 % layout 'default';
 % title $meta->{'title'};
 <h2><%= $meta->{'title'} %></h2>
-<p style="font-weight:bold;">Date:
-%= $meta->{'ts'}
+<p style="font-weight:bold;">Date Published:
+%= $meta->{'published'}->ymd
 </p>
 %== $meta->{'content'}
 <h5>Post by <%= $meta->{'author'} %></h5>

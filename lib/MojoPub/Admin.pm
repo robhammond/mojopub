@@ -4,6 +4,7 @@ use Mojo::Base 'Mojolicious::Controller';
 use MongoDB;
 use MongoDB::OID;
 use Data::Dumper;
+use DateTime;
 
 # Standard admin dashboard
 sub admin {
@@ -37,21 +38,19 @@ sub editpost {
 
 		$self->render( template => 'admin/editpost',
 			meta => {
-				title   => $doc->{'meta'}->{'title'},
-				content => $doc->{'meta'}->{'content'},
+				title   => $doc->{'head'}->{'title'},
+				content => $doc->{'body'}->{'content'},
 				slug 	=> $doc->{'meta'}->{'slug'},
 				author  => $doc->{'meta'}->{'author'},
-				ts      => $doc->{'meta'}->{'ts'},
+				last_updated  => DateTime->from_epoch( epoch => $doc->{'meta'}->{'last_updated'} ),
 				status  => $doc->{'meta'}->{'status'},
 			},
 			user => $user,
 			message => '',
 		);
 	} else {
-		$self->render_text('bum');
+		$self->render_text('Error locating post! Please try again');
 	}
-
-	# $self->render(user => $user, template => 'admin/addpost');
 }
 
 # List of live/draft posts
@@ -66,7 +65,7 @@ sub posts {
 	# returns current URL
 	my $req_url = $self->url_for->path->to_abs_string;
 	
-	my $post = $posts->find; # find all records in the posts collection
+	my $post = $posts->find->sort({'meta.last_updated' => -1}); # find all records in the posts collection
 	
 	# check how many matches we get for the query
 	my $num = $post->count;
@@ -76,17 +75,32 @@ sub posts {
 
 	while (my $doc  = $post->next) {
 		push(@post_list, { 
-			title   => $doc->{'meta'}->{'title'},
-			author  => $doc->{'meta'}->{'author'},
-			ts    	=> $doc->{'meta'}->{'ts'},
-			slug    => $doc->{'meta'}->{'slug'},
-			status  => $doc->{'meta'}->{'status'},
-			_id     => $doc->{'_id'},
+			title   		=> $doc->{'head'}->{'title'},
+			author  		=> $doc->{'meta'}->{'author'},
+			last_updated	=> DateTime->from_epoch( epoch => $doc->{'meta'}->{'last_updated'} ),
+			slug    		=> $doc->{'meta'}->{'slug'},
+			status  		=> $doc->{'meta'}->{'status'},
+			_id     		=> $doc->{'_id'},
 		});
 	}
 
 	$self->render( user => $user, posts => \@post_list );
 }
 
+# Control global/user settings
+sub settings {
+	my $self = shift;
+	return $self->redirect_to('/') unless $self->session('user');
+	my $user = $self->session('user');
+	$self->render(user => $user);
+}
+
+# Theme editor
+sub theme {
+	my $self = shift;
+	return $self->redirect_to('/') unless $self->session('user');
+	my $user = $self->session('user');
+	$self->render(user => $user);
+}
 
 1;

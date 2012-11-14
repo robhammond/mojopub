@@ -18,11 +18,32 @@
 		<textarea class="tinymce" rows="15" cols="50" style="width: 500px" name="content">
 		<%= $meta->{'content'} %>
 		</textarea>
+		
+		<h2>Meta data</h2>
 		<h3>Tags</h3>
 		<input type="text" name="tags" value="" />
 		<p><%= $meta->{'tags'} %></p>
+		<h3>Robots</h3>
+		<div class="control-group">
+			<div class="controls">
+				<label class="checkbox">
+					<input type="checkbox" name="noindex" />Noindex
+				</label>
+				<label class="checkbox">
+					<input type="checkbox" name="nofollow" /> Nofollow
+				</label>
+			</div>
+		</div>
+		<h3>Comments?</h3>
+		<div class="control-group">
+			<div class="controls">
+				<label class="checkbox">
+					<input type="checkbox" name="comments" checked /> Comments on
+				</label>
+			</div>
+		</div>
 	</div>
-	<div class="span2">
+	<div class="span3 well">
 		<button class="btn" id="save">save draft</button>
 		% if ($meta->{'status'} eq 'live') {
 			<button class="btn btn-primary" id="publish">update</button>

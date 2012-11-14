@@ -4,5 +4,7 @@
 		<li><a href="/admin/">Dashboard</a></li>
 		<li><a href="/admin/add">Write</a></li>
 		<li><a href="/admin/posts">Posts</a></li>
+		<!--li><a href="/admin/settings">Settings</a></li>
+		<li><a href="/admin/theme">Theme</a></li-->
 	</ul>
 </div>

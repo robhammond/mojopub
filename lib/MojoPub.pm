@@ -67,6 +67,13 @@ sub startup {
 
   $r->get('/admin/posts')->to('admin#posts');
 
+  $r->get('/admin/settings')->to('admin#settings');
+  $r->get('/admin/theme')->to('admin#theme');
+
+  $r->post('/admin/upload')->to('upload#media');
+
+  $r->get('/feed')->to('feed#rss');
+
   # Main router for blog posts/pages
   # only accepts alphanumeric characters and '-' for now
   $r->route('/:name', name => qr![-0-9a-zA-Z]+!, format => 0)->to('render#blogpost');

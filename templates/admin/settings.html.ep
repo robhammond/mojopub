@@ -1,0 +1,6 @@
+% layout 'admin';
+% title 'settings';
+<div class="span10">
+	<h2>Settings</h2>
+	
+</div>

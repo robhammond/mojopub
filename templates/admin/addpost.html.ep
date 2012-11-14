@@ -7,17 +7,42 @@
 		<h3>Title</h3>
 		<input type="text" name="title" value="" />
 		<h5>URL</h5>
-		<p>http://xyz.com/
+		<!-- Angular.js/Ember.js to dynamically update slug? -->
+		<p style="font-size:12px;">http://xyz.com/
 			<input type="text" name="slug" value="" />
 		</p>
+		
 		<h3>content</h3>
 		<textarea class="tinymce" rows="15" cols="50" style="width: 500px" name="content">
 		</textarea>
+		<h2>Meta data</h2>
 		<h3>Tags</h3>
 		<input type="text" name="tags" value="" />
+		<h3>Robots</h3>
+		<div class="control-group">
+			<div class="controls">
+				<label class="checkbox">
+					<input type="checkbox" name="noindex" value="1" />Noindex
+				</label>
+				<label class="checkbox">
+					<input type="checkbox" name="nofollow" value="1" /> Nofollow
+				</label>
+			</div>
+		</div>
+		<h3>Comments?</h3>
+		<div class="control-group">
+			<div class="controls">
+				<label class="checkbox">
+					<input type="checkbox" name="comments" checked value="1" /> Comments on
+				</label>
+			</div>
+		</div>
 	</div>
 	<div class="span2">
 		<button class="btn" id="save">save draft</button>
 		<button class="btn btn-primary" id="publish">publish</button>
 		</form>
+		<h3>media</h3>
+		<a href="#modal" role="button" class="btn" data-toggle="modal">upload media</a>
 	</div>
+

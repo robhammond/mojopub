@@ -8,7 +8,7 @@
 		<tr>
 			<td><a href="/admin/edit?id=<%= $post->{'_id'} %>"><%= $post->{'title'} %></a></td>
 			<td><%= $post->{'author'} %></td>
-			<td><%= $post->{'last_updated'} %></td>
+			<td><%= $post->{'last_updated'}->ymd %> <%= $post->{'last_updated'}->hms %></td>
 			<td><%= $post->{'status'} %></td>
 		</tr>
 	% }

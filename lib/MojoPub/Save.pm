@@ -21,10 +21,13 @@ sub savepost {
 	my $posts = $db->posts;
 
 	# variables
-	my $title   = $self->param('title');
-	my $slug    = $self->param('slug');
-	my $content = $self->param('content');
-	my @tags    = split(',', $self->param('tags'));
+	my $title    = $self->param('title');
+	my $slug     = $self->param('slug');
+	my $content  = $self->param('content');
+	my @tags     = split(',', $self->param('tags'));
+	my $comments = $self->param('comments') || 0;
+	my $noindex  = $self->param('noindex')  || 0;
+	my $nofollow = $self->param('nofollow') || 0;
 
 	# actions
 	my $action = $self->param('action');
@@ -39,13 +42,22 @@ sub savepost {
 	    		slug   	 => $slug,
 		    	created	 => time(),
 		    	last_updated => time(),
-		    	title 	 => $title,
-		    	content  => $content,
 		    	author   => $user,
 		    	tags	 => \@tags,
 		    	status   => 'draft', # draft by default
 		    	type     => 'post',
-		    	comments => { on => 0 },
+		    	comments => { on => $comments },
+		    	noindex  => $noindex,
+		    	nofollow => $nofollow,
+	    	},
+	    	head => {
+	    		title 	 => $title,
+	    	},
+	    	body => {
+	    		content  => $content,
+	    	},
+	    	foot => {
+
 	    	},
     	});
 
@@ -59,8 +71,8 @@ sub savepost {
 	} else {
 		# update if ID exists
 		$posts->update({"_id" => MongoDB::OID->new( value => $id )}, {'$set' => { 
-			'meta.title'   => $title,
-			'meta.content' => $content,
+			'head.title'   => $title,
+			'body.content' => $content,
 			'meta.slug'    => $slug,
 			'meta.tags'    => \@tags,
 			'meta.last_updated' => time(),
@@ -68,7 +80,7 @@ sub savepost {
 
 		# now route to status
 		if ($action eq 'save') {
-			$self->redirect_to("/admin/");	
+			$self->redirect_to("/admin/posts");	
 		} elsif ($action eq 'publish') {
 			$self->redirect_to("/admin/publish?id=$id");
 		}
@@ -92,7 +104,7 @@ sub publish {
 	}});
 
 	$self->flash(message => 'Published!');
-	$self->redirect_to("/admin/");
+	$self->redirect_to("/admin/posts");
 }
 
 sub draft {
@@ -112,7 +124,7 @@ sub draft {
 			'meta.last_updated' => time(),
 	}});
 	$self->flash(message => 'saved!');
-	$self->redirect_to("/admin/");
+	$self->redirect_to("/admin/posts");
 }
 
 1;

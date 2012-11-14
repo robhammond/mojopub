@@ -1,11 +1,16 @@
 MojoPub - A simple Mojolicious & MongoDB based CMS.
 
-Barebones CMS with visual page editor - easily themeable with bootstrap-based 
-admin & default theme.
+MojoPub is a CMS that gets out of your way and makes publishing content easy.
 
-MojoPub is intended to be a Perl-based CMS that is:
+Features:
 
-* easy to use for people who don't know Perl
-* easy to install (for people who don't know Perl)
+* Visual content editor (currently TinyMCE) with upload option
+* Easily themeable with bootstrap-based admin & default theme
+* Advanced SEO options by default
+
+Roadmap:
+
+* Easy to use (for people who don't know Perl)
+* Easy to install (for people who don't know Perl)
 * SEO friendly right out of the box (unlike Wordpress)
-* not bug ugly (unlike a lot of Perl-based CMSs out there!)
+* Not bug ugly (unlike a lot of Perl-based CMSs out there!)
