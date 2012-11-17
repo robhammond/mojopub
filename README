@@ -4,7 +4,7 @@ MojoPub is a CMS that gets out of your way and makes publishing content easy.
 
 Features:
 
-* Visual content editor (currently TinyMCE) with upload option
+* Visual content editor (currently Raptor Editor) with upload option
 * Easily themeable with bootstrap-based admin & default theme
 * Advanced SEO options by default
 

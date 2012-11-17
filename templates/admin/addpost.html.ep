@@ -1,11 +1,11 @@
 % layout 'admin-edit';
 % title 'write post';
+
 	<div class="span7">
-		<form method="post" id="post_form" action="/admin/savepost">
-		<input type="hidden" name="action" id="action" value="" />
+	<form method="post" id="post_form" action="/admin/savepost">		
 		<h2>Write post</h2>
 		<h3>Title</h3>
-		<input type="text" name="title" value="" />
+	<input type="text" name="title" value="" />
 		<h5>URL</h5>
 		<!-- Angular.js/Ember.js to dynamically update slug? -->
 		<p style="font-size:12px;">http://xyz.com/
@@ -13,12 +13,19 @@
 		</p>
 		
 		<h3>content</h3>
-		<textarea class="tinymce" rows="15" cols="50" style="width: 500px" name="content">
-		</textarea>
-		<h2>Meta data</h2>
-		<h3>Tags</h3>
+		<textarea rows="30" cols="50" style="width: 500px; height: 400px;" name="content"></textarea>
+
+	</div>
+	<div class="span3 well">
+		<button class="btn" id="save">save draft</button>
+		<button class="btn btn-primary" id="publish">publish</button>
+		
+		<h3>media</h3>
+		<a href="#modal" role="button" class="btn" data-toggle="modal">upload media</a>
+		<h3>Meta data</h3>
+		<h4>Tags</h4>
 		<input type="text" name="tags" value="" />
-		<h3>Robots</h3>
+		<h4>Robots</h4>
 		<div class="control-group">
 			<div class="controls">
 				<label class="checkbox">
@@ -29,7 +36,8 @@
 				</label>
 			</div>
 		</div>
-		<h3>Comments?</h3>
+		<!--
+		<h4>Comments?</h4>
 		<div class="control-group">
 			<div class="controls">
 				<label class="checkbox">
@@ -37,12 +45,6 @@
 				</label>
 			</div>
 		</div>
+		-->
 	</div>
-	<div class="span2">
-		<button class="btn" id="save">save draft</button>
-		<button class="btn btn-primary" id="publish">publish</button>
-		</form>
-		<h3>media</h3>
-		<a href="#modal" role="button" class="btn" data-toggle="modal">upload media</a>
-	</div>
-
+</form>

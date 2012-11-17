@@ -24,11 +24,27 @@ sub blogpost {
 	if ($num == 1) {
 		my $doc = $post->next;
 
+		# sort out SEO options
+		my $robots;
+		if ($doc->{'meta'}->{'noindex'} == 0) {
+			$robots = 'index,';
+		} else {
+			$robots = 'noindex,';
+		}
+
+		if ($doc->{'meta'}->{'nofollow'} == 0) {
+			$robots .= 'follow';
+		} else {
+			$robots .= 'nofollow';
+		}
+		$robots = "<meta name='robots' content='$robots'>";
+
 		$self->render( template => 'example/blogpost',
 			meta => {
 				title 	  => $doc->{'head'}->{'title'},
 				content   => $doc->{'body'}->{'content'},
 				author    => $doc->{'meta'}->{'author'},
+				robots    => $robots,
 				published => DateTime->from_epoch( epoch => $doc->{'meta'}->{'published'} ),
 				tags	  => $doc->{'meta'}->{'tags'},
 			}

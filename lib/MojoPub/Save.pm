@@ -33,7 +33,6 @@ sub savepost {
 	my $action = $self->param('action');
 	my $id = $self->param('id') || '';
 
-	
 	if ($id eq '') {
 		# If no id given, then insert
 		$id = $posts->insert({ 
@@ -75,12 +74,15 @@ sub savepost {
 			'body.content' => $content,
 			'meta.slug'    => $slug,
 			'meta.tags'    => \@tags,
+			'meta.noindex' => $noindex,
+			'meta.nofollow' => $nofollow,
 			'meta.last_updated' => time(),
 		}});
 
 		# now route to status
 		if ($action eq 'save') {
-			$self->redirect_to("/admin/posts");	
+			$self->flash(message => "Post updated!");
+			$self->redirect_to("/admin/edit?id=$id");	
 		} elsif ($action eq 'publish') {
 			$self->redirect_to("/admin/publish?id=$id");
 		}

@@ -17,14 +17,18 @@ sub media {
 	return $self->redirect_to('/') unless $self->session('user');
 	my $user = $self->session('user');
 	
-	# return value not ideal here - needs to be AJAXy otherwise there's
-	# a risk of losing content
-	return $self->redirect_to('/admin/')
-      unless my $upload = $self->param('upload');
-    my $size 	= $upload->size;
-    my $fn 		= $upload->filename;
-    my $headers = $upload->headers;
+    return $self->redirect_to('/admin/')
+    	unless my $body = $self->req->body;
 
+	# Read request data
+    my $headers = $self->req->headers;
+    # Create a new file instance and add body
+    my $upload = Mojo::Asset::File->new;
+    $upload->add_chunk($body);
+
+	my $size 	= $headers->header("x-file-size");
+    my $fn 		= $headers->header("x-file-name");
+    
 	my $dt 		= DateTime->now();
 	my $year 	= $dt->year;
 	my $month 	= $dt->month;
@@ -44,12 +48,20 @@ sub media {
 		}
 	}
 
+	# More minimal / portable solution:
+	# unless (-d $upload_path) {
+	#    	mkpath $upload_path or die "Cannot create dirctory: $upload_path";
+	# }
+
+
 	if ($upload->move_to("$upload_path/$fn")) {
 		# add to collection in db
 		my $db      = $self->db;
 		my $uploads = $db->uploads;
 
-		my $id = $uploads->insert({ 
+		# avoid duplication by using uid unique to file
+		$uploads->insert({
+			_id => "$upload_path/$fn",
 	    	path => $upload_path,
 	    	size => $size,
 	    	filename => $fn,

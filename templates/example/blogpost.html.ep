@@ -1,5 +1,6 @@
 % layout 'default';
 % title $meta->{'title'};
+% stash robots => $meta->{'robots'};
 <h2><%= $meta->{'title'} %></h2>
 <p style="font-weight:bold;">Date Published:
 %= $meta->{'published'}->ymd
