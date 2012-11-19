@@ -1,4 +1,4 @@
-package MojoPub::Save;
+package MojoPub::Settings;
 use Mojo::Base 'Mojolicious::Controller';
 
 use Mojo::Log;
@@ -11,19 +11,19 @@ use Data::Dumper;
 my $log = Mojo::Log->new;
 
 
-sub savepost {
+sub savesettings {
 	my $self = shift;
 
 	return $self->redirect_to('/') unless $self->session('user');
 	my $user  = $self->session('user');
 
-	my $db    = $self->db;
-	my $posts = $db->posts;
+	my $db       = $self->db;
+	my $settings = $db->settings;
 
 	# variables
-	my $title    = $self->param('title');
-	my $slug     = $self->param('slug');
-	my $content  = $self->param('content');
+	my $sitename    = $self->param('sitename');
+	my $seovisible     = $self->param('seovisible');
+	my $relauthor  = $self->param('relauthor');
 	my @tags     = split(/, ?/, $self->param('tags'));
 	# append any existing tags if present
 	my @tags2	 = $self->param('tag') || ();
@@ -92,61 +92,5 @@ sub savepost {
 	}
 }
 
-sub publish {
-	my $self = shift;
-
-	return $self->redirect_to('/') unless $self->session('user');
-	my $user  = $self->session('user');
-	
-	my $db    = $self->db;
-	my $posts = $db->posts;
-	my $id  = $self->param("id");
-
-	# Publish & set a published time
-	$posts->update({"_id" => MongoDB::OID->new( value => $id )}, {'$set' => { 
-			'meta.status'   => 'live',
-			'meta.published' => time(),
-	}});
-
-	$self->flash(message => 'Published!');
-	$self->redirect_to("/admin/posts");
-}
-
-sub draft {
-	my $self = shift;
-
-	return $self->redirect_to('/') unless $self->session('user');
-
-	my $user  = $self->session('user');
-	my $id = $self->param("id");
-
-	my $db    = $self->db;
-	my $posts = $db->posts;
-
-	# Change status to draft and update last_updated value
-	$posts->update({"_id" => MongoDB::OID->new( value => $id )}, {'$set' => { 
-			'meta.status'   => 'draft',
-			'meta.last_updated' => time(),
-	}});
-	$self->flash(message => 'saved!');
-	$self->redirect_to("/admin/posts");
-}
-
-sub delete {
-	my $self = shift;
-
-	return $self->redirect_to('/') unless $self->session('user');
-
-	my $user  = $self->session('user');
-	my $id = $self->param("id");
-
-	my $db    = $self->db;
-	my $posts = $db->posts;
-
-	# Change status to draft and update last_updated value
-	$posts->remove( {"_id" => MongoDB::OID->new( value => $id )} );
-	$self->flash( message => 'deleted!' );
-	$self->redirect_to("/admin/posts");
-}
 
 1;

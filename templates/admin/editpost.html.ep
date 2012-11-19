@@ -12,13 +12,9 @@
 		<h3>Title</h3>
 		<input type="text" name="title" value="<%= $meta->{'title'} %>" />
 		<h5>URL</h5>
-		<p>http://xyz.com/
-			<input type="text" name="slug" value="<%= $meta->{'slug'} %>" />
-		</p>
+		<p><%= stash('url')->base %>/<input type="text" name="slug" value="<%= $meta->{'slug'} %>" /></p>
 		<h3>content</h3>
-		<textarea rows="15" cols="50" style="width: 500px" name="content">
-		<%= $meta->{'content'} %>
-		</textarea>
+		<textarea rows="15" cols="50" style="width: 500px" name="content"><%= $meta->{'content'} %></textarea>
 	</div>
 	<div class="span3 well">
 		<button class="btn" id="save">save draft</button>
@@ -34,7 +30,7 @@
 		<input type="text" name="tags" value="" />
 		<ul>
 		<% foreach my $tag (@{$meta->{'tags'}}) { %>
-			<li><%= $tag %></li>
+			<li><input type="checkbox" value="<%= $tag %>" name="tag" checked /><%= $tag %></li>
 		<% } %>
 		</ul>
 		<h4>Robots</h4>

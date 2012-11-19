@@ -3,13 +3,14 @@
 <div class="span10">
 	<h2>Posts</h2>
 	<table class="table table-striped">
-		<tr><th>Post</th><th>Author</th><th>Saved</th><th>Status</th></tr>
+		<tr><th>Post</th><th>Author</th><th>Saved</th><th>Status</th><th>Action</th></tr>
 	% foreach my $post (@$posts) {
 		<tr>
 			<td><a href="/admin/edit?id=<%= $post->{'_id'} %>"><%= $post->{'title'} %></a></td>
 			<td><%= $post->{'author'} %></td>
 			<td><%= $post->{'last_updated'}->ymd %> <%= $post->{'last_updated'}->hms %></td>
 			<td><%= $post->{'status'} %></td>
+			<td><a href="/admin/delete?id=<%= $post->{'_id'} %>">Delete</a></td>
 		</tr>
 	% }
 	</table>

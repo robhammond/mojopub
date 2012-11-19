@@ -1,6 +1,25 @@
 % layout 'admin';
 % title 'settings';
 <div class="span10">
+	<form>
 	<h2>Settings</h2>
-	
+	<h4>Global</h4>
+	<p>Site Name: <input type="text" placeholder="" /></p>
+
+	<h4>SEO</h4>
+	<p><input type="checkbox" checked /> Visible to search engines?</p>
+	<p>XML Sitemap address: </p>
+	<p>Rel=publisher setting (if applicable): <input type="text" placeholder="Google+ business profile URL" /></p>
+	<h4>Analytics</h4>
+	<p>Analytics code: 
+		<select name="analytics">
+			<option>Google Analytics</option>
+			<option>Piwik</option>
+			<option>Google Tag Manager</option>
+			<option>Other</option>
+		</select>
+		<textarea></textarea>
+		</p>
+		<button type="submit" class="btn btn-primary">Save</button>
+	</form>
 </div>

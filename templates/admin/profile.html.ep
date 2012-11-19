@@ -1,0 +1,12 @@
+% layout 'admin';
+% title 'edit profile';
+<div class="span10">
+	<form>
+	<h2>Profile</h2>
+	<p>Display Name: <input type="text" name="name" /></p>
+	<p>Email: <input type="text" name="name" /></p>
+	<p>Rel=author setting: <input type="text" placeholder="Google+ profile URL" /></p>
+	
+		<button type="submit" class="btn btn-primary">Save</button>
+	</form>
+</div>

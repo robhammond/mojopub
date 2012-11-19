@@ -19,7 +19,7 @@ sub addpost {
 	my $self = shift;
 	return $self->redirect_to('/') unless $self->session('user');
 	my $user = $self->session('user');
-	$self->render(user => $user);
+	$self->render( user => $user, url => $self->req->url );
 }
 
 # Edit a post
@@ -51,6 +51,7 @@ sub editpost {
 			},
 			user => $user,
 			message => '',
+			url => $self->req->url,
 		);
 	} else {
 		$self->render_text('Error locating post! Please try again');
@@ -101,6 +102,14 @@ sub settings {
 
 # Theme editor
 sub theme {
+	my $self = shift;
+	return $self->redirect_to('/') unless $self->session('user');
+	my $user = $self->session('user');
+	$self->render(user => $user);
+}
+
+# Edit profile
+sub profile {
 	my $self = shift;
 	return $self->redirect_to('/') unless $self->session('user');
 	my $user = $self->session('user');

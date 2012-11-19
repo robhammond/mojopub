@@ -1,9 +1,9 @@
 <div class="span2 well">
 	<ul class="nav nav-list">
 		<li class="nav-header">Admin</li>
-		<li><a href="/admin/">Dashboard</a></li>
-		<li><a href="/admin/add">Write</a></li>
-		<li><a href="/admin/posts">Posts</a></li>
+		<li><a href="/admin/"><i class="icon-th-large"></i> Dashboard</a></li>
+		<li><a href="/admin/add"><i class="icon-pencil"></i> Write</a></li>
+		<li><a href="/admin/posts"><i class="icon-edit"></i> Posts</a></li>
 		<!--li><a href="/admin/settings">Settings</a></li>
 		<li><a href="/admin/theme">Theme</a></li-->
 	</ul>

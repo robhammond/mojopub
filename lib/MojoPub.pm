@@ -68,7 +68,10 @@ sub startup {
   $r->get('/admin/posts')->to('admin#posts');
 
   $r->get('/admin/settings')->to('admin#settings');
+  $r->get('/admin/profile')->to('admin#profile');
   $r->get('/admin/theme')->to('admin#theme');
+
+  $r->get('/admin/delete')->to('save#delete');
 
   $r->post('/admin/upload')->to('upload#media');
 
