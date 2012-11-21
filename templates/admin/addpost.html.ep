@@ -11,7 +11,7 @@
 		<p style="font-size:12px;"><%= stash('url')->base %>/<input type="text" name="slug" value="" /></p>
 		
 		<h3>content</h3>
-		<textarea rows="30" cols="50" style="width: 500px; height: 400px;" name="content"></textarea>
+		<textarea class="ckeditor"rows="30" cols="50" style="width: 500px; height: 400px;" name="content"></textarea>
 
 	</div>
 	<div class="span3 well">

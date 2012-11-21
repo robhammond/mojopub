@@ -1,0 +1,4 @@
+/* Style existing tags in admin edit */
+ul.existing_tags {
+	list-style-type: none;
+}

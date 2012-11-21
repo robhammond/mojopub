@@ -14,7 +14,7 @@
 		<h5>URL</h5>
 		<p><%= stash('url')->base %>/<input type="text" name="slug" value="<%= $meta->{'slug'} %>" /></p>
 		<h3>content</h3>
-		<textarea rows="15" cols="50" style="width: 500px" name="content"><%= $meta->{'content'} %></textarea>
+		<textarea class="ckeditor" rows="15" cols="50" style="width: 500px" name="content"><%= $meta->{'content'} %></textarea>
 	</div>
 	<div class="span3 well">
 		<button class="btn" id="save">save draft</button>
@@ -28,16 +28,16 @@
 		<h3>Meta data</h3>
 		<h4>Tags</h4>
 		<input type="text" name="tags" value="" />
-		<ul>
+		<ul class="existing_tags">
 		<% foreach my $tag (@{$meta->{'tags'}}) { %>
-			<li><input type="checkbox" value="<%= $tag %>" name="tag" checked /><%= $tag %></li>
+			<li><input type="checkbox" value="<%= $tag %>" name="tag" checked /> <%= $tag %></li>
 		<% } %>
 		</ul>
 		<h4>Robots</h4>
 		<div class="control-group">
 			<div class="controls">
 				<label class="checkbox">
-					<input type="checkbox" name="noindex" value="1"<% if ($meta->{'noindex'} == 1) { %> checked<% } %> />Noindex
+					<input type="checkbox" name="noindex" value="1"<% if ($meta->{'noindex'} == 1) { %> checked<% } %> /> Noindex
 				</label>
 				<label class="checkbox">
 					<input type="checkbox" name="nofollow" value="1"<% if ($meta->{'nofollow'} == 1) { %> checked<% } %> /> Nofollow
