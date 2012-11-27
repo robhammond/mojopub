@@ -66,6 +66,7 @@ sub startup {
   $r->get('/admin/edit')->to('admin#editpost');
 
   $r->get('/admin/posts')->to('admin#posts');
+  $r->get('/admin/pages')->to('admin#pages');
 
   $r->get('/admin/settings')->to('admin#settings');
   $r->get('/admin/profile')->to('admin#profile');

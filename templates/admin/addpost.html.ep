@@ -3,7 +3,7 @@
 
 	<div class="span7">
 	<form method="post" id="post_form" action="/admin/savepost">		
-		<h2>Write post</h2>
+		<h2>Write</h2>
 		<h3>Title</h3>
 	<input type="text" name="title" value="" />
 		<h5>URL</h5>
@@ -15,19 +15,23 @@
 
 	</div>
 	<div class="span3 well">
-		<button class="btn" id="save">save draft</button>
-		<button class="btn btn-primary" id="publish">publish</button>
-		
-		<h3>media</h3>
-		<a href="#modal" role="button" class="btn" data-toggle="modal">upload media</a>
+		<div style="display:block;margin:10px 0 25px 0;">
+			<button class="btn" id="save">save draft</button>
+			<button class="btn btn-primary" id="publish">publish</button>
+		</div>
+		<h5 style="display:inline">Media: &nbsp;</h5>
+		<a href="#modal" role="button" class="btn" data-toggle="modal">upload media</a><br><br>
+		<h5 style="display:inline">Page Type: &nbsp;</h5>
+		<select name="type" class="input-small"><option value="post" selected>Post</option><option value="page">Page</option></select>
 		<h3>Meta data</h3>
+		
 		<h4>Tags</h4>
 		<input type="text" name="tags" value="" />
 		<h4>Robots</h4>
 		<div class="control-group">
 			<div class="controls">
 				<label class="checkbox">
-					<input type="checkbox" name="noindex" value="1" />Noindex
+					<input type="checkbox" name="noindex" value="1" /> Noindex
 				</label>
 				<label class="checkbox">
 					<input type="checkbox" name="nofollow" value="1" /> Nofollow

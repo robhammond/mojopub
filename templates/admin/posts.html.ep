@@ -1,9 +1,12 @@
 % layout 'admin';
 % title 'Posts';
 <div class="span10">
-	<h2>Posts</h2>
+    <ul class="nav nav-tabs">
+	    <li<% if ($type eq 'posts') { %> class="active"<% } %>><a href="/admin/posts">Posts</a></li>
+	    <li<% if ($type eq 'pages') { %> class="active"<% } %>><a href="/admin/pages">Pages</a></li>
+    </ul>
 	<table class="table table-striped">
-		<tr><th>Post</th><th>Author</th><th>Saved</th><th>Status</th><th>Action</th></tr>
+		<tr><th>Title</th><th>Author</th><th>Saved</th><th>Status</th><th>Action</th></tr>
 	% foreach my $post (@$posts) {
 		<tr>
 			<td><a href="/admin/edit?id=<%= $post->{'_id'} %>"><%= $post->{'title'} %></a></td>

@@ -24,6 +24,7 @@ sub savepost {
 	my $title    = $self->param('title');
 	my $slug     = $self->param('slug');
 	my $content  = $self->param('content');
+	my $type  	 = $self->param('type');
 	my @tags     = split(/, ?/, $self->param('tags'));
 	# append any existing tags if present
 	my @tags2	 = $self->param('tag') || ();
@@ -47,7 +48,7 @@ sub savepost {
 		    	author   => $user,
 		    	tags	 => \@tags,
 		    	status   => 'draft', # draft by default
-		    	type     => 'post',
+		    	type     => $type,
 		    	comments => { on => $comments },
 		    	noindex  => $noindex,
 		    	nofollow => $nofollow,
@@ -76,6 +77,7 @@ sub savepost {
 			'head.title'   => $title,
 			'body.content' => $content,
 			'meta.slug'    => $slug,
+			'meta.type'    => $type,
 			'meta.tags'    => \@tags,
 			'meta.noindex' => $noindex,
 			'meta.nofollow' => $nofollow,

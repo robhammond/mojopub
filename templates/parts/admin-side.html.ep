@@ -3,8 +3,14 @@
 		<li class="nav-header">Admin</li>
 		<li><a href="/admin/"><i class="icon-th-large"></i> Dashboard</a></li>
 		<li><a href="/admin/add"><i class="icon-pencil"></i> Write</a></li>
-		<li><a href="/admin/posts"><i class="icon-edit"></i> Posts</a></li>
+		<li><a href="/admin/posts"><i class="icon-edit"></i> Edit</a></li>
 		<!--li><a href="/admin/settings">Settings</a></li>
 		<li><a href="/admin/theme">Theme</a></li-->
+		<li class="divider"></li>
 	</ul>
+	<!--ul class="nav nav-list">
+		<li class="nav-header">Maintenance</li>
+		<li><a href="/admin/links"><i class="icon-th-large"></i> Link Checks</a></li>
+		<%# <li class="divider"></li> %>
+	</ul-->
 </div>
