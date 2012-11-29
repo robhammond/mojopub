@@ -42,11 +42,11 @@ sub startup {
 
     my $user = $self->param('user') || '';
     my $pass = $self->param('pass') || '';
-    return $self->render(message => 'error!') unless $self->users->check($user, $pass);
+    return $self->render(message => 'Error logging in!', user => '') unless $self->users->check($user, $pass);
 
     $self->session(user => $user);
     $self->flash(message => 'Thanks for logging in.');
-    $self->redirect_to('/admin');
+    $self->redirect_to('/admin/');
   } => 'auth/login');
 
   $r->get('/logout' => sub {
