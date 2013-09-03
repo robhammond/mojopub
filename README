@@ -14,3 +14,4 @@ Roadmap:
 * Easy to install (for people who don't know Perl)
 * SEO friendly right out of the box (unlike Wordpress)
 * Not bug ugly (unlike a lot of Perl-based CMSs out there!)
+* Easy templates using HTML comments

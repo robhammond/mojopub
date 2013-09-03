@@ -2,3 +2,7 @@
 ul.existing_tags {
 	list-style-type: none;
 }
+footer {
+	font-size: 12px;
+	margin:15px;
+}

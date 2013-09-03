@@ -7,7 +7,7 @@
 	<div class="span7">
 	<form method="post" id="post_form" action="/admin/savepost">
 		<input type="hidden" name="id" value="<%= $self->param('id') %>" />
-		<input type="hidden" name="action" id="action" value="" />
+		<input type="hidden" name="action" id="action" value="">
 		<h2>Edit post</h2>
 		<h3>Title</h3>
 		<input type="text" name="title" value="<%= $meta->{'title'} %>" />

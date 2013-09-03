@@ -2,13 +2,14 @@
 % title 'write post';
 
 	<div class="span7">
-	<form method="post" id="post_form" action="/admin/savepost">		
+	<form method="post" id="post_form" action="/admin/savepost">
+		<input type="hidden" name="action" id="action" value="">
 		<h2>Write</h2>
 		<h3>Title</h3>
-	<input type="text" name="title" value="" />
+		<input type="text" name="title" value="">
 		<h5>URL</h5>
 		<!-- Angular.js/Ember.js to dynamically update slug? -->
-		<p style="font-size:12px;"><%= stash('url')->base %>/<input type="text" name="slug" value="" /></p>
+		<p style="font-size:12px;"><%= stash('url')->base %>/<input type="text" name="slug" value=""></p>
 		
 		<h3>content</h3>
 		<textarea class="ckeditor"rows="30" cols="50" style="width: 500px; height: 400px;" name="content"></textarea>
@@ -26,15 +27,21 @@
 		<h3>Meta data</h3>
 		
 		<h4>Tags</h4>
-		<input type="text" name="tags" value="" />
+		<input type="text" name="tags" value="">
 		<h4>Robots</h4>
 		<div class="control-group">
 			<div class="controls">
 				<label class="checkbox">
-					<input type="checkbox" name="noindex" value="1" /> Noindex
+					<input type="checkbox" name="noindex" value="1"> noindex
 				</label>
 				<label class="checkbox">
-					<input type="checkbox" name="nofollow" value="1" /> Nofollow
+					<input type="checkbox" name="nofollow" value="1"> nofollow
+				</label>
+				<label class="checkbox">
+					<input type="checkbox" name="noarchive" value="1"> noarchive
+				</label>
+				<label class="checkbox">
+					<input type="checkbox" name="noodp" value="1"> noodp
 				</label>
 			</div>
 		</div>

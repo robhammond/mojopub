@@ -7,8 +7,20 @@
 	%= $message
 	</div>
 % }
-<%= form_for '/login' => (method => 'POST') => begin %>
-    <%= 'Username' %> : <%= text_field 'user', id => 'user'  %><br />
-    <%= 'Password' %> : <%= password_field 'pass', id => 'pass' %><br />
-    <%= submit_button 'Login' , id => 'foo' %>
-<% end %>
+<form method="post">
+	<div class="control-group">
+		<label for="user" class="control-label">Username</label>
+		<div class="controls">
+			<input type="text" name="user">
+		</div>
+	</div>
+	<div class="control-group">
+		<label for="pass" class="control-label">Password</label>
+		<div class="controls">
+			<input type="password" name="pass">
+		</div>
+	</div>
+	<div class="form-actions">
+		<button class="btn btn-primary" type="submit" id="submit">Log in &raquo;</button>
+	</div>
+</form>

@@ -18,7 +18,7 @@ sub savepost {
 	my $user  = $self->session('user');
 
 	my $db    = $self->db;
-	my $posts = $db->posts;
+	my $posts = $db->get_collection( 'posts' );
 
 	# variables
 	my $title    = $self->param('title');
@@ -101,7 +101,7 @@ sub publish {
 	my $user  = $self->session('user');
 	
 	my $db    = $self->db;
-	my $posts = $db->posts;
+	my $posts = $db->get_collection( 'posts' );
 	my $id  = $self->param("id");
 
 	# Publish & set a published time
@@ -123,7 +123,7 @@ sub draft {
 	my $id = $self->param("id");
 
 	my $db    = $self->db;
-	my $posts = $db->posts;
+	my $posts = $db->get_collection( 'posts' );
 
 	# Change status to draft and update last_updated value
 	$posts->update({"_id" => MongoDB::OID->new( value => $id )}, {'$set' => { 
@@ -143,7 +143,7 @@ sub delete {
 	my $id = $self->param("id");
 
 	my $db    = $self->db;
-	my $posts = $db->posts;
+	my $posts = $db->get_collection( 'posts' );
 
 	# Change status to draft and update last_updated value
 	$posts->remove( {"_id" => MongoDB::OID->new( value => $id )} );

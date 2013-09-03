@@ -2,7 +2,7 @@ package MojoPub::Auth;
 use Mojo::Base 'Mojolicious::Controller';
 
 my $USERS = {
-    rob    => 'test',
+    admin    => 'admin',
 };
 
 sub new { bless {}, shift }
